@@ -1,0 +1,1525 @@
+{
+  "intents": [
+    {
+      "tag": "Salutation",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Salut",
+        "Bonjour",
+        "Hello"
+      ],
+      "responses": [
+        "Salut :-)",
+        "Salut, comment puis-je vous aider ?",
+        "Salut, je suis là pour répondre à vos questions",
+        "Salut, je suis l'agent ChatBot de l'IIT, je suis à votre disposition",
+        "Bonjour ! Comment puis-je vous assister aujourd'hui ?"
+      ]
+    },
+{
+      "tag": "Goodbye",
+      "patterns": [
+        "Bye",
+        "Au revoir",
+        "Goodbye",
+        "À bientôt",
+        "Ciao"
+      ],
+      "responses": [
+        "A plus tard, merci pour votre visite",
+        "Merci, bonne journée",
+        "Au revoir ! Revenez bientôt.",
+        "Merci de votre visite. Si vous avez des questions ou si vous avez besoin de plus d'informations, n'hésitez pas à nous contacter. Nous sommes à votre disposition. Au revoir !",
+        "Au plaisir de répondre à vos questions. Nous sommes disponibles à tout moment, alors n'hésitez pas à nous contacter. À bientôt !"
+      ]
+    },
+{
+      "tag": "Remerciement",
+      "patterns": [
+        "Merci",
+        "Thank you",
+        "Merci beaucoup",
+        "Je vous suis reconnaissant",
+        "C'est très aimable à vous"
+      ],
+      "responses": [
+        "Je suis ravi de vous aider",
+        "Avec plaisir",
+        "Je suis ravi d'avoir pu vous aider. Si vous avez d'autres demandes, je suis à votre disposition.",
+        "Je suis là pour vous aider, n'hésitez pas à me poser des questions si vous en avez.",
+        "Il n'y a pas de quoi ! Je suis là pour vous assister."
+      ]
+    },
+    {
+      "tag": "Orientation Prépa",
+      "patterns": [
+        "Je suis étudiant en prépa, quelles sont les options d'orientation qui s'offrent à moi ?",
+        "J'ai terminé mes études préparatoires, est-ce que je peux terminer le cycle d'ingénieur à l'IIT ?",
+        "Je suis préparatoire, que puis-je faire ?",
+        "Quelles sont les filières disponibles pour les étudiants en prépa ?",
+        "Quels sont les débouchés après les études préparatoires ?"
+      ],
+      "responses": [
+        "En tant qu'étudiant en prépa, vous avez la possibilité de choisir parmi plusieurs filières d'ingénieur, telles que Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications, Génie Informatique, etc. Vous pouvez également opter pour des licences comme Licence en Génie Industriel : Management des Systèmes Industriels ou Licence en Informatique : Génie Logiciel et Système d'Information, ou encore des masters tels que Industrie V4.0 en fonction de vos intérêts et de votre projet professionnel.",
+        "Après les études préparatoires, vous pouvez intégrer le cycle d'ingénieur à l'IIT. Vous aurez la possibilité de choisir parmi différentes filières d'ingénieur selon vos préférences et votre projet professionnel. Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications, Génie Informatique sont quelques-unes des options disponibles.", 
+"En tant qu'étudiant en prépa, une multitude de possibilités d'orientation s'ouvrent à vous à l'IIT. Vous pourrez opter pour des filières d'ingénieur diverses telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications, le Génie Informatique, etc. De plus, vous aurez la chance de choisir des licences spécialisées comme le Génie Industriel : Management des Systèmes Industriels ou l'Informatique : Génie Logiciel et Système d'Information, ainsi que des masters tels que l'Industrie V4.0, en fonction de votre projet professionnel et de vos intérêts.",
+"Après avoir terminé vos études préparatoires, vous avez la possibilité d'intégrer le cycle d'ingénieur à l'IIT. Vous pourrez choisir parmi une variété de filières d'ingénieur en fonction de vos préférences et de vos objectifs professionnels. Des options telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique vous seront proposées.",
+"En tant qu'étudiant en classe préparatoire, vous avez un large éventail de filières d'ingénieur parmi lesquelles choisir à l'IIT, notamment le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications, le Génie Informatique, et bien d'autres encore. Vous pouvez également opter pour des licences telles que le Génie Industriel : Management des Systèmes Industriels ou l'Informatique : Génie Logiciel et Système d'Information, ainsi que des masters tels que l'Industrie V4.0, en fonction de vos intérêts et de votre projet professionnel."
+      ]
+    },
+{
+"tag": "Orientation Licence",
+"patterns": [
+"Quelles sont les options d'orientation disponibles pour un étudiant en licence ?",
+"Est-il possible de poursuivre le cycle d'ingénieur à l'IIT après avoir obtenu ma licence ?",
+"Comment puis-je choisir la filière d'ingénieur qui correspond le mieux à mes intérêts et à mon projet professionnel après avoir terminé ma licence ?",
+"Je suis actuellement en licence, quelles sont les voies d'orientation qui s'ouvrent à moi ?",
+"Quelles possibilités d'orientation ai-je après avoir achevé mes études de licence ?"
+],
+      "responses": [
+"En qualité d'étudiant ayant réussi sa licence, vous avez accès à de multiples possibilités d'orientation, notamment dans des domaines tels que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications, le Génie Informatique, et bien d'autres. Vous pouvez également envisager des programmes de masters tels que l'Industrie V4.0, en alignant vos choix sur vos intérêts personnels et votre vision professionnelle.",
+"Après avoir obtenu votre licence avec succès, vous disposez de diverses possibilités d'orientation, incluant des domaines tels que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications, le Génie Informatique, et bien d'autres encore. De plus, vous pouvez envisager des masters spécialisés tels que l'Industrie V4.0, en fonction de vos intérêts et de votre projet professionnel.",
+"En tant qu'étudiant ayant validé sa licence, un éventail d'options s'offre à vous pour votre orientation, notamment dans les domaines du Génie Civil, du Génie des Procédés, du Génie Mécanique, du Génie Industriel, du Génie des Télécommunications, du Génie Informatique, et bien d'autres encore. Vous pouvez également envisager des programmes de masters tels que l'Industrie V4.0, en fonction de vos intérêts et de vos aspirations professionnelles.",
+"Après avoir réussi votre licence, vous avez plusieurs choix d'orientation qui s'ouvrent à vous en tant qu'étudiant. Parmi ces choix figurent des domaines tels que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications, le Génie Informatique, et bien d'autres encore. Par ailleurs, vous pouvez envisager des programmes de masters tels que l'Industrie V4.0, en fonction de votre projet professionnel et de vos centres d'intérêt.",
+"En tant qu'étudiant ayant réussi sa licence, vous avez plusieurs options d'orientation, notamment dans les domaines du Génie Civil, du Génie des Procédés, du Génie Mécanique, du Génie Industriel, du Génie des Télécommunications, du Génie Informatique, et bien d'autres. Vous pouvez également envisager des masters tels que l'Industrie V4.0 en fonction de vos intérêts et de votre projet professionnel."
+ ]
+},
+
+{
+"tag": "Orientation selon profil scientifiques",
+"patterns": [
+"Quelles sont les filières d'ingénieur les mieux adaptées à un profil axé sur les sciences physiques et mathématiques ?",
+"Quelles sont les filières d'ingénieur qui conviennent le mieux à une personne ayant des compétences en mathématiques et en sciences physiques ?",
+"Pour un étudiant intéressé par les mathématiques et les sciences physiques, quelles sont les filières d'ingénieur les plus adaptées ?",
+"Si j'ai des compétences en sciences physiques et en mathématiques, quelles filières d'ingénieur devrais-je envisager ?",
+"Pour un profil scientifique ayant des compétences en mathématiques et en sciences physiques, quelles filières d'ingénieur seraient les plus adaptées ?"
+],
+"responses": [ 
+"L'ingénierie offre de nombreuses opportunités dans des domaines tels que le Génie Civil, le Génie Mécanique, le Génie des Procédés, le Génie Industriel et le Génie des Télécommunications, qui conviennent aux personnes ayant des compétences en sciences physiques et mathématiques.",
+"Les étudiants intéressés par les sciences physiques et mathématiques peuvent trouver des débouchés prometteurs dans les filières d'ingénieur, notamment dans des domaines comme le Génie Civil, le Génie Mécanique, le Génie des Procédés, le Génie Industriel et le Génie des Télécommunications.",
+"Les filières d'ingénieur telles que le Génie Civil, le Génie Mécanique, le Génie des Procédés, le Génie Industriel et le Génie des Télécommunications offrent de nombreuses opportunités pour les personnes ayant des compétences en mathématiques et en sciences physiques, et elles nécessitent une approche analytique et logique pour résoudre des problèmes techniques complexes.",
+ "Les filières d'ingénieur telles que Génie Civil, Génie Mécanique, Génie des Procédés, Génie Industriel et Génie des Télécommunications peuvent être bien adaptées à un profil axé sur les sciences physiques et mathématiques. Elles impliquent souvent la modélisation, la simulation, la conception et la résolution de problèmes techniques et complexes.",
+"Si vous avez des compétences en mathématiques et en sciences physiques, vous pourriez envisager des filières d'ingénieur telles que Génie Civil, Génie Mécanique, Génie des Procédés, Génie Industriel et Génie des Télécommunications. Ces domaines exigent une solide compréhension des principes scientifiques et des compétences mathématiques pour résoudre des problèmes techniques et développer des solutions innovantes." 
+ ]
+    },
+
+{
+
+"tag": "Orientation selon profil informatique",
+"patterns": [
+"Quelle filière d'ingénieur conviendrait le mieux à un profil intéressé par les nouvelles technologies et l'informatique ?",
+"Pour un étudiant intéressé par les nouvelles technologies et l'informatique, quelle filière d'ingénieur serait la plus appropriée ?",
+"Quelle filière d'ingénieur conviendrait le mieux à un profil axé sur les nouvelles technologies et l'informatique ?",
+"Si je suis intéressé par les nouvelles technologies et l'informatique, quelle filière d'ingénieur devrais-je envisager ?",
+"J'aime l'informatique et j'ai de bonnes notes en informatique. Je veux faire un cycle d'ingénieur en informatique."
+],
+"responses": [
+"La filière Génie Informatique pourrait être parfaitement adaptée à un profil intéressé par les nouvelles technologies et l'informatique. Elle offre des cours sur la programmation, les bases de données, l'intelligence artificielle, la cybersécurité, la conception de logiciels, etc.",
+"Si vous êtes intéressé par les nouvelles technologies et l'informatique, la filière Génie Informatique serait idéale pour vous. Vous pourrez acquérir des connaissances en programmation, en intelligence artificielle, en cybersécurité et en conception de logiciels, ce qui vous permettra de vous épanouir dans le domaine de l'ingénierie informatique.",
+"Le Génie Informatique est une filière qui convient particulièrement à ceux qui sont passionnés par les nouvelles technologies et l'informatique. Elle offre des formations approfondies en programmation, en bases de données, en intelligence artificielle, en cybersécurité, en conception de logiciels, et bien d'autres domaines.",
+
+"Si vous êtes attiré par les nouvelles technologies et l'informatique, envisagez la filière du Génie Informatique. Vous y développerez des compétences en programmation, en intelligence artificielle, en cybersécurité et en conception de logiciels, ce qui vous permettra de vous épanouir dans le domaine de l'ingénierie informatique.",
+
+"Pour ceux qui s'intéressent aux nouvelles technologies et à l'informatique, la filière du Génie Informatique offre un parcours adapté. Elle propose des enseignements spécialisés couvrant des sujets tels que la programmation, les bases de données, l'intelligence artificielle, la cybersécurité, la conception de logiciels, et bien plus encore."
+]
+},
+{
+"tag": "Orientation selon profil management",
+"patterns": [
+"Quelles sont les options d'orientation pour un étudiant intéressé par la gestion d'entreprise et l'optimisation des processus ?",
+"Quelles sont les filières à considérer pour un étudiant qui souhaite se spécialiser dans la gestion d'entreprise et l'amélioration des processus ?",
+"Quelles sont les choix d'orientation possibles pour un étudiant qui s'intéresse à la gestion d'entreprise et à l'optimisation des processus ?",
+"Je suis quelqu'un intéressé par la gestion d'entreprise et l'amélioration des processus, quelles sont les options qui s'offrent à moi en matière d'orientation ?",
+"Quelles filières conviendraient à un étudiant qui souhaite se spécialiser dans la gestion d'entreprise et l'optimisation des processus ?"
+],
+"responses": [
+
+"Les étudiants intéressés par la gestion d'entreprise et l'optimisation des processus peuvent trouver des options d'orientation intéressantes dans les filières d'ingénieur telles que le Génie Industriel et le Génie des Procédés. Ces filières abordent des sujets tels que la gestion de la production, l'organisation industrielle, la logistique, la gestion de la qualité, et bien d'autres.",
+
+"Si vous avez un intérêt pour la gestion d'entreprise et l'optimisation des processus, envisagez les filières d'ingénieur comme le Génie Industriel et le Génie des Procédés. Vous y développerez des compétences en gestion de la production, en organisation industrielle, en logistique et en gestion de la qualité, ouvrant ainsi des perspectives de carrière dans le domaine de la gestion et de l'optimisation des processus.",
+
+"Les filières d'ingénieur telles que le Génie Industriel et le Génie des Procédés sont des choix pertinents pour les étudiants intéressés par la gestion d'entreprise et l'optimisation des processus. Elles abordent divers sujets tels que la gestion de la production, l'organisation industrielle, la logistique, la gestion de la qualité, et bien d'autres encore.",
+
+"Les filières d'ingénieur comme Génie Industriel et Génie des Procédés peuvent être des options d'orientation intéressantes pour un étudiant intéressé par la gestion d'entreprise et l'optimisation des processus. Elles couvrent généralement des sujets tels que la gestion de la production, l'organisation industrielle, la logistique, la gestion de la qualité, etc.",
+
+"Si vous êtes intéressé par la gestion d'entreprise et l'optimisation des processus, vous pourriez envisager des filières d'ingénieur telles que Génie Industriel et Génie des Procédés. Ces domaines vous permettront d'acquérir des connaissances en gestion de la production, en organisation industrielle, en logistique et en gestion de la qualité, ce qui vous ouvrira des opportunités de carrière dans le domaine de la gestion et de l'optimisation des processus."
+]
+},
+{
+  "tag": "Orientation selon profil management industriel",
+"patterns": [
+"Quelles sont les licences proposées dans le domaine du management industriel ?",
+"Quels types de licences sont disponibles pour le management industriel ?",
+"Pouvez-vous me donner des informations sur les licences en management industriel ?",
+"Quels sont les choix de licences pour étudier le management industriel ?",
+"Y a-t-il des licences spécifiques au domaine du management industriel ?"
+],
+"responses": [
+"Il existe plusieurs licences proposées dans le domaine du management industriel, notamment : la licence professionnelle Management de la production industrielle, la licence professionnelle Logistique et pilotage des flux, la licence professionnelle Management de la qualité, la licence professionnelle Management de la chaîne logistique globale, etc.",
+"Plusieurs licences sont disponibles pour étudier le management industriel, notamment la licence professionnelle en gestion de la production industrielle, la licence professionnelle en logistique et pilotage des flux, la licence professionnelle en gestion de la qualité, ainsi que la licence professionnelle en gestion de la chaîne logistique globale, parmi d'autres options.",
+"Dans le domaine du management industriel, on peut trouver différentes licences, telles que la licence professionnelle en gestion de la production industrielle, la licence professionnelle en logistique et gestion des flux, la licence professionnelle en gestion de la qualité, ainsi que la licence professionnelle en gestion de la chaîne logistique globale, entre autres.",
+"Si vous êtes intéressé par le management industriel, vous pouvez choisir parmi différentes licences, comme la licence professionnelle en gestion de la production industrielle, la licence professionnelle en logistique et pilotage des flux, la licence professionnelle en gestion de la qualité, ainsi que la licence professionnelle en gestion de la chaîne logistique globale, et bien d'autres.",
+"Le domaine du management industriel propose plusieurs licences, parmi lesquelles on retrouve la licence professionnelle en gestion de la production industrielle, la licence professionnelle en logistique et pilotage des flux, la licence professionnelle en gestion de la qualité, ainsi que la licence professionnelle en gestion de la chaîne logistique globale, et bien d'autres encore."
+]
+},
+{ 
+  "tag": "Orientation génie télécommunication",
+"patterns": [
+"Quels sont les débouchés professionnels de la filière Génie des télécommunications ?",
+"Quelles sont les opportunités de carrière dans le domaine du Génie des télécommunications ?",
+"Quels emplois sont accessibles avec un diplôme en Génie des télécommunications ?",
+"Pouvez-vous me parler des perspectives professionnelles en Génie des télécommunications ?",
+"Quels secteurs offrent des opportunités pour les professionnels du Génie des télécommunications ?"
+],
+"responses": [
+"Les débouchés professionnels de la filière Génie des télécommunications sont nombreux et peuvent inclure des carrières dans les télécommunications, les réseaux de communication, la conception et la gestion de systèmes de communication, les opérateurs de télécommunications, les entreprises de technologie de l'information, etc.",
+"Une carrière dans la filière Génie des télécommunications peut mener à des emplois passionnants dans les secteurs des télécommunications, des réseaux de communication et de la technologie de l'information, offrant ainsi une variété de possibilités professionnelles.",
+"Les professionnels du Génie des télécommunications sont très demandés dans l'industrie, et ils peuvent trouver des débouchés dans des postes liés aux télécommunications, à la conception et à la gestion de systèmes de communication, ainsi qu'au développement de réseaux de communication performants.",
+"Avec un diplôme en Génie des télécommunications, vous pouvez envisager des carrières dans des domaines tels que les télécommunications mobiles, les réseaux sans fil, la transmission de données, la sécurité des réseaux, les technologies de pointe et bien plus encore.",
+"Les perspectives professionnelles pour les diplômés en Génie des télécommunications sont prometteuses, car ils peuvent travailler dans divers secteurs, y compris les télécommunications, l'industrie de la technologie, la recherche et le développement, les services de consultation et bien d'autres encore."
+]
+},
+{
+ "tag": "Date debut cours sem1",
+"patterns": [
+"Quelle est la date de début des cours pour le premier semestre ?",
+"Quand est-ce que le premier semestre commence-t-il ?",
+"À partir de quand commence le premier semestre ?",
+"Quand est-ce que les cours du premier semestre débutent ?",
+"Quelle est la date de rentrée pour le premier semestre ?"
+],
+"responses": [
+"La date de début des cours pour la prochaine session est fixée au 21 septembre pour les anciens et le 1er octobre pour les nouveaux étudiants.",
+"Les anciens étudiants doivent se présenter en classe à partir du 21 septembre, tandis que les nouveaux étudiants débuteront leurs cours le 1er octobre.",
+"Pour la prochaine session, les cours commenceront le 21 septembre pour les étudiants déjà inscrits et le 1er octobre pour les nouveaux inscrits.",
+"Les étudiants existants devraient être prêts à commencer leurs cours le 21 septembre, tandis que les nouveaux étudiants devront attendre jusqu'au 1er octobre pour leur premier jour de cours.",
+"Le premier semestre commencera le 21 septembre pour les étudiants inscrits l'année dernière et le 1er octobre pour les nouveaux étudiants."
+]
+},
+{
+"tag": "Date debut cours sem2",
+"patterns": [
+"Quelle est la date de début des cours pour le deuxième semestre ?",
+"Quand est-ce que le deuxième semestre commence-t-il ?",
+"Quelle est la date de début des cours pour le deuxième semestre ?",
+"À partir de quand commence le deuxième semestre ?",
+"Quand est-ce que les cours du deuxième semestre débutent ?"
+],
+"responses": [
+"Les cours pour le prochain semestre seront communiqués le 25 janvier.",
+"Une annonce concernant les cours du prochain semestre sera faite le 25 janvier.",
+"Le 25 janvier est la date à laquelle les informations sur les cours pour le prochain semestre seront rendues disponibles.",
+"Il y aura une annonce officielle des cours du prochain semestre le 25 janvier.",
+"La date de début des cours pour le deuxième semestre n'a pas encore été annoncée. Veuillez vous référer aux communications officielles pour obtenir les informations les plus récentes."
+]
+},
+{
+"tag": "Devcontrolsem1",
+"patterns": [
+"Quand est-ce que les devoirs surveillés du premier semestre commencent-ils et se terminent-ils ?",
+"Quelle est la période pendant laquelle les devoirs surveillés du premier semestre auront lieu ?",
+"À partir de quand et jusqu'à quand les devoirs surveillés du premier semestre seront-ils organisés ?",
+"Quelle est la plage horaire pour les devoirs surveillés du premier semestre ?",
+"Quand auront lieu les devoirs surveillés du premier semestre ?"
+],
+"responses": [
+"Les devoirs surveillés du premier semestre auront lieu du 9 novembre au 15 novembre.",
+"Les étudiants auront une semaine, du 9 novembre au 15 novembre, pour passer les devoirs surveillés du premier semestre.",
+"Du 9 novembre au 15 novembre, les étudiants passeront les devoirs surveillés du premier semestre.",
+"Les devoirs surveillés du premier semestre débuteront le 9 novembre et se termineront le 15 novembre.",
+"La période des devoirs surveillés pour le premier semestre se déroulera du 9 novembre au 15 novembre."
+]
+},
+{ 
+  "tag":"Devcontrolsem2",
+"patterns": [
+"Quand est-ce que les devoirs surveillés du deuxième semestre commencent-ils et se terminent-ils ?",
+"Quelle est la période pendant laquelle les devoirs surveillés du deuxième semestre auront lieu ?",
+"À partir de quand et jusqu'à quand les devoirs surveillés du deuxième semestre seront-ils organisés ?",
+"Quelle est la plage horaire pour les devoirs surveillés du deuxième semestre ?",
+"Quand auront lieu les devoirs surveillés du deuxième semestre ?"
+],
+"responses": [
+"Les devoirs surveillés du deuxième semestre auront lieu du 8 mars au 13 mars.",
+"Les étudiants auront une semaine, du 8 mars au 13 mars, pour passer les devoirs surveillés du deuxième semestre.",
+"Du 8 mars au 13 mars, les étudiants passeront les devoirs surveillés du deuxième semestre.",
+"Les devoirs surveillés du deuxième semestre débuteront le 8 mars et se termineront le 13 mars.",
+"La période des devoirs surveillés pour le deuxième semestre se déroulera du 8 mars au 13 mars."
+]
+},
+{
+  "tag":"Examensem1",
+"patterns": [
+"À quelles dates sont prévus les examens finaux pour ce premier semestre ?",
+"Quand est-ce que les examens de fin de premier semestre auront lieu ?",
+"Est-ce que vous savez quand auront lieu les examens de fin de premier semestre ?",
+"Pouvez-vous me dire à quelle période sont programmés les examens de fin de premier semestre ?",
+"Quand sont les examens finaux pour ce premier semestre ?"
+],
+"responses": [
+"Les examens finaux pour le premier semestre sont prévus du 4 janvier au 16 janvier.",
+"Vous passerez vos examens finaux du 4 au 16 janvier pour ce premier semestre.",
+"Les examens finaux pour le premier semestre sont programmés du 4 au 16 janvier.",
+"Du 4 au 16 janvier, les examens finaux pour le premier semestre auront lieu.",
+"Notez que les examens finaux pour ce premier semestre se situent entre le 4 et le 16 janvier."
+]
+},
+ {
+        "tag":"Examensem2",
+        "patterns" : [
+          "À quelles dates sont prévus les examens finaux pour ce deuxiéme semestre ?",
+          "Quand est-ce que les examens de fin de deuxiéme semestre auront lieu ?",
+          "Est-ce que vous savez quand auront lieu les examens de fin de deuxiéme semestre ?",
+          "Pouvez-vous me dire à quelle période sont programmés les examens de fin de deuxiéme semestre  ?",
+          "Quand sont les examens finaux pour ce deuxiéme semestre ?"
+        ],
+        "responses": [
+          " Les examens finaux pour la deuxiéme semestre sont prévus du 24 mai au 5 juin.",
+          "Vous pouvez vous attendre à passer vos examens finaux du 24 mai au 5 juin pour ce deuxiéme semestre.",
+          "Si vous vous demandez quand auront lieu les examens finaux pour le deuxiéme semestre, sachez qu'ils sont programmés du 24 mai au 5 juin.",
+          "Du 24 mai au 5 juin, les examens finaux pour la deuxiéme semestre auront lieu.",
+          "Pour être prêt(e) pour les examens finaux de ce deuxiéme semestre, notez que les dates se situent entre le 24mai et le 5 juin."
+        ]
+      },
+
+{
+"tag":"Examenrattrappage",
+"patterns": [
+"Quand est-ce que les examens de rattrapage débutent ?",
+"À partir de quelle date sont prévus les examens de rattrapage ?",
+"Est-ce que vous savez quand commencent les examens de rattrapage ?",
+"Quelle est la date de début des examens de rattrapage ?",
+"Pouvez-vous me dire à quelle période commencent les examens de rattrapage ?"
+],
+"responses": [
+"Les examens de rattrapage auront lieu du 21 juin au 30 juin cette année.",
+"Les étudiants qui doivent passer les examens de rattrapage peuvent s'attendre à ce qu'ils commencent le 21 juin et se terminent le 30 juin.",
+"Si vous vous demandez quand se déroulent les examens de rattrapage, sachez qu'ils ont lieu entre le 21 et le 30 juin cette année.",
+"Du 21 au 30 juin, les examens de rattrapage pour cette année auront lieu.",
+"Pour vous préparer aux examens de rattrapage de cette année, notez que les dates se situent entre le 21 et le 30 juin."
+]
+},
+
+{
+"tag":"Resultatexamenssesprincipale",
+"patterns": [
+"À partir de quand pourrons-nous consulter les résultats des examens finaux de la session principale ?",
+"Quand est-ce que les résultats des examens finaux de la session principale seront disponibles ?",
+"Est-ce que vous savez quand les résultats des examens finaux de la session principale seront publiés ?",
+"Quelle est la date de publication des résultats des examens finaux de la session principale ?",
+"Pouvez-vous me dire quand est-ce que nous pourrons avoir accès aux résultats des examens finaux de la session principale ?"
+],
+"responses": [
+"Les résultats des examens finaux de la session principale seront publiés le 10 juin.",
+"Les étudiants pourront consulter leurs résultats d'examens finaux de la session principale à partir du 10 juin.",
+"Si vous attendez les résultats de vos examens finaux de la session principale, sachez qu'ils seront disponibles à partir du 10 juin.",
+"À partir du 10 juin, vous pourrez accéder aux résultats des examens finaux de la session principale.",
+"La date de publication des résultats des examens finaux de la session principale est fixée au 10 juin."
+]
+},
+{
+ "tag": "ResultatExamensSessionRattrapage",
+"patterns": [
+"À partir de quand pourrons-nous consulter les résultats des examens finaux de session de rattrapage ?",
+"Quand est-ce que les résultats des examens finaux de session de rattrapage seront disponibles ?",
+"Est-ce que vous savez quand les résultats des examens finaux de session de rattrapage seront publiés ?",
+"Quelle est la date de publication des résultats des examens finaux de session de rattrapage ?",
+"Pouvez-vous me dire quand nous pourrons avoir accès aux résultats des examens finaux de session de rattrapage ?"
+],
+"responses": [
+"Les résultats des examens finaux de la session de rattrapage seront publiés le 5 juillet.",
+"Les étudiants pourront consulter leurs résultats d'examens finaux de la session de rattrapage à partir du 5 juillet.",
+"Si vous attendez les résultats de vos examens finaux de la session de rattrapage, sachez qu'ils seront disponibles à partir du 5 juillet.",
+"À partir du 5 juillet, vous pourrez accéder aux résultats des examens finaux de la session de rattrapage.",
+"La date de publication des résultats des examens finaux de la session de rattrapage est fixée au 5 juillet."
+]
+},
+{
+"tag": "Vacancessem1",
+"patterns": [
+"Quelles sont les périodes de vacances pendant le premier semestre ?",
+"Y a-t-il des congés prévus au cours du premier semestre ?",
+"Est-ce que les étudiants ont des vacances pendant le premier semestre ?",
+"Pouvez-vous me dire les dates des vacances pendant le premier semestre ?",
+"Quand est-ce que les étudiants ont une pause pendant le premier semestre ?"
+],
+"responses": [
+"Il y a une pause d'hiver qui commence le 21 décembre et se termine le 3 janvier.",
+"Les étudiants auront une pause d'hiver du 21 décembre au 3 janvier.",
+"Pendant le premier semestre, il y a une pause d'hiver de deux semaines, du 21 décembre au 3 janvier.",
+"Les vacances de la pause d'hiver débutent le 21 décembre et prennent fin le 3 janvier.",
+"Les étudiants peuvent profiter d'une pause d'hiver du 21 décembre au 3 janvier pendant le premier semestre."
+]
+},
+{
+"tag": "Vacancessem2",
+"patterns": [
+"Quelles sont les périodes de vacances pendant le deuxième semestre ?",
+"Y a-t-il des congés prévus au cours du deuxième semestre ?",
+"Est-ce que les étudiants ont des vacances pendant le deuxième semestre ?",
+"Pouvez-vous me dire les dates des vacances pendant le deuxième semestre ?",
+"Quand est-ce que les étudiants ont une pause pendant le deuxième semestre ?"
+],
+"responses": [
+"Il y a une pause de printemps qui commence le 15 mars et se termine le 28 mars.",
+"Les étudiants auront une pause de printemps du 15 mars au 28 mars.",
+"Pendant le deuxième semestre, il y a une pause de printemps de deux semaines, du 15 mars au 28 mars.",
+"Les vacances de la pause de printemps débutent le 15 mars et prennent fin le 28 mars.",
+"Les étudiants peuvent profiter d'une pause de printemps du 15 mars au 28 mars pendant le deuxième semestre."
+]
+},
+{
+ "tag": "Jours fériés",
+   "patterns": [
+      "Quels sont les jours fériés ?",
+      "Pouvez-vous me dire quels sont les jours fériés ?",
+      "Y a-t-il des jours fériés à venir ?",
+      "Pourriez-vous me donner la liste des jours fériés ?",
+      "Quand sont les jours fériés cette année ?"
+],
+"responses": [
+    "Les jours fériés seront : le 15 octobre pour la Fête de l'Évacuation, le 1er janvier pour le Jour de l'An, le 17 décembre pour la Fête de la Révolution, le 20 mars pour la Fête de l'Indépendance, le 9 avril pour la Journée des Martyrs, le 1er mai pour la Fête du Travail, les 28 et 29 juin pour l'Aïd el-Kébir 2023, le 25 juillet pour la Fête de la République et le 27 septembre pour le Mouled 2023.",
+    "Voici la liste des jours fériés : le 15 octobre pour la Fête de l'Évacuation, le 1er janvier pour le Jour de l'An, le 17 décembre pour la Fête de la Révolution, le 20 mars pour la Fête de l'Indépendance, le 9 avril pour la Journée des Martyrs.",
+    "Les jours fériés à venir sont : le 15 octobre pour la Fête de l'Évacuation, le 1er janvier pour le Jour de l'An, le 17 décembre pour la Fête de la Révolution, le 20 mars pour la Fête de l'Indépendance, le 9 avril pour la Journée des Martyrs.",
+    "Voici la liste complète des jours fériés : le 15 octobre pour la Fête de l'Évacuation, le 1er janvier pour le Jour de l'An, le 17 décembre pour la Fête de la Révolution, le 20 mars pour la Fête de l'Indépendance, le 9 avril pour la Journée des Martyrs.",
+    "Les jours fériés cette année sont : le 15 octobre pour la Fête de l'Évacuation, le 1er janvier pour le Jour de l'An, le 17 décembre pour la Fête de la Révolution, le 20 mars pour la Fête de l'Indépendance, le 9 avril pour la Journée des Martyrs."       
+]
+},
+{
+  "tag": "Filières Ingénieur",
+  "patterns": [
+    "Je suis intéressé par les filières ingénieur, quelles sont les options disponibles dans votre Institut ?",
+    "Quels sont les cycles d'ingénieur proposés à l'IIT ?",
+    "Quels sont les programmes de filières d'ingénieur disponibles dans votre Institut ?",
+    "Quelles sont les filières d'ingénieur proposées dans votre institut ?",
+    "Quelles filières d'ingénieur sont proposées dans votre Institut ?"
+  ],
+  "responses": [
+    "Voici quelques options de filières ingénieur offertes dans notre Institut : Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications et Génie Informatique. Chacune de ces filières propose des cours spécifiques et des opportunités de spécialisation.",
+    "Les cycles d'ingénieur proposés à l'IIT comprennent des options telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Chaque filière offre un ensemble unique de cours et de possibilités de développement professionnel.",
+    "Nos programmes de filières d'ingénieur couvrent divers domaines, notamment le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Chaque option offre une formation spécialisée dans son domaine respectif.",
+    "Au sein de notre institut, vous trouverez des filières d'ingénieur telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Chacune de ces filières offre des opportunités d'apprentissage et de carrière uniques.",
+    "Les filières d'ingénieur proposées dans notre Institut incluent le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Chaque filière offre des perspectives passionnantes et des possibilités de spécialisation dans des domaines spécifiques de l'ingénierie."
+  ]
+},
+{
+  "tag": "Filière Ing plus",
+  "patterns": [
+    "Je suis intéressé par les filières ingénieur, quelles sont les options disponibles dans votre Institut ?",
+    "Quels sont les cycles d'ingénieur proposés à l'IIT ?",
+    "Quelles sont les filières d'ingénieur proposées dans votre institut ?",
+    "Quelles filières d'ingénieur sont proposées dans votre Institut ?",
+    "Pouvez-vous me donner des exemples de filières d'ingénieur offertes dans votre Institut ?"
+  ],
+  "responses": [
+    "Si vous cherchez à poursuivre une carrière en tant qu'ingénieur, notre Institut peut vous offrir de nombreuses options de filières, notamment Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications et Génie Informatique. N'hésitez pas à consulter notre site web pour plus de détails sur ces options.",
+    "Les filières d'ingénieur sont l'une de nos principales spécialités à l'Institut, et nous proposons une grande variété d'options pour répondre aux intérêts et aux objectifs de chaque étudiant. Parmi les options disponibles, vous trouverez Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications et Génie Informatique. Pour en savoir plus sur ces filières, visitez notre site web.",
+    "Dans notre Institut, vous aurez la possibilité de choisir parmi plusieurs options de filières d'ingénieur, telles que Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications et Génie Informatique. Chaque filière offre un ensemble spécifique de cours et de compétences spécialisées.",
+    "Nos programmes de filières d'ingénieur sont diversifiés pour répondre aux intérêts et aux besoins des étudiants. Vous pouvez choisir parmi des options telles que Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications et Génie Informatique. Chacune de ces filières offre des opportunités passionnantes dans le domaine de l'ingénierie.",
+    "Les filières d'ingénieur disponibles dans notre Institut comprennent Génie Civil, Génie des Procédés, Génie Mécanique, Génie Industriel, Génie des Télécommunications et Génie Informatique. Chacune de ces filières offre des programmes complets et une formation de haute qualité pour préparer les étudiants à une carrière réussie dans le domaine de l'ingénierie."
+  ]
+},
+ {
+        "tag": "Master Industrie",
+        "patterns": [
+          "Vous avez un master ?",
+          "Quels sont les programmes de Master proposés dans votre Institut ?",
+          "Est-ce que vous avez des programmes de Master disponibles dans votre Institut ?",
+          "Quelles sont les options de Master offertes dans votre Institut ?",
+          "Je suis intéressé par des études de Master , pouvez-vous me dire quels programmes sont proposés dans votre Institut ?"
+        ],
+        "responses": [
+          "Dans notre Institut, nous proposons notamment un programme de Master en Industrie V4.0. Les programmes visent à fournir des compétences très sollicités dans l’usine du futur et former des diplômés capables de bien mener un projet visant à développer un état de l’art, à identifier et résoudre les défis scientifiques et technologiques dans le contexte de l’Industrie 4.0 et terminer par la mise en place et l’implémentation de nouveaux concepts modernes",
+"Pour les étudiants intéressés par la gestion de projets d'ingénierie, notre Institut propose un programme de Master en Gestion de Projets d'Ingénierie. Ce programme couvre les aspects clés de la gestion de projets, tels que la planification, la budgétisation, la gestion des ressources et la gestion des risques.",
+"Nous proposons également un programme de Master en Génie Électrique, qui met l'accent sur les domaines tels que l'électronique de puissance, les systèmes de contrôle, les réseaux électriques et les énergies renouvelables. Les étudiants acquièrent une expertise technique avancée dans ces domaines.",
+"Un autre programme de Master proposé dans notre Institut est le Master en Ingénierie des Systèmes Embarqués. Ce programme forme les étudiants à concevoir et développer des systèmes embarqués complexes, tels que des systèmes embarqués automobiles, des appareils médicaux et des systèmes de communication.",
+"Nous offrons également un programme de Master en Gestion de la Chaîne d'Approvisionnement. Ce programme forme les étudiants aux principes de gestion efficace de la chaîne d'approvisionnement, en mettant l'accent sur les stratégies logistiques, l'optimisation des opérations et la gestion des flux de produits."
+ ]
+},
+ {
+  "tag": "Master2",
+  "patterns": [
+    "Je suis intéressé par un programme de Master qui inclut une expérience pratique sur le terrain, est-ce que votre Institut en propose un ?",
+    "Est-ce que votre programme de Master offre une composante pratique sur le terrain ?",
+    "Pouvez-vous me dire si votre Institut propose un programme de Master avec une expérience pratique sur le terrain ?",
+    "Quelles opportunités d'expérience pratique sont disponibles dans votre programme de Master ?",
+    "Je souhaite m'inscrire à un programme de Master qui intègre une expérience pratique, pouvez-vous me renseigner sur vos offres ?"
+  ],
+  "responses": [
+    "Oui, nous offrons un programme de Master en Ingénierie Industrielle qui comprend une expérience pratique sur le terrain dans des entreprises locales et internationales. Les étudiants ont l'opportunité d'acquérir une expérience pratique en travaillant sur des projets concrets et de mettre en pratique les compétences acquises en classe. Pour plus d'informations, veuillez consulter notre site web.",
+    "Absolument ! Notre Institut propose un programme de Master qui intègre une expérience pratique sur le terrain. Les étudiants auront l'occasion de travailler avec des entreprises partenaires et d'appliquer leurs connaissances dans des projets réels. Consultez notre site web pour en savoir plus sur les détails du programme.",
+    "Dans notre programme de Master, nous mettons un fort accent sur l'expérience pratique sur le terrain. Les étudiants ont la possibilité de collaborer avec des entreprises et de participer à des projets concrets qui complètent leur apprentissage académique. N'hésitez pas à explorer notre site web pour obtenir plus d'informations sur cette dimension pratique de notre programme.",
+    "Nous comprenons l'importance d'une expérience pratique dans un programme de Master. C'est pourquoi notre Institut propose des opportunités d'apprentissage sur le terrain, permettant aux étudiants de mettre en pratique leurs connaissances et de développer des compétences concrètes. Consultez notre site web pour découvrir les différents projets et partenariats que nous offrons.",
+    "L'expérience pratique est au cœur de notre programme de Master. Nous offrons des stages, des projets de recherche appliquée et des collaborations avec des entreprises pour donner aux étudiants la possibilité d'appliquer leurs connaissances théoriques dans des situations réelles. Visitez notre site web pour en savoir plus sur les opportunités d'expérience pratique dans notre programme de Master."
+  ]
+},
+{
+  "tag": "Programme Master",
+  "patterns": [
+    "Quel est le programme du Master Industrie ?",
+    "Pouvez-vous me donner des informations sur le programme du Master Industrie ?",
+    "Je suis intéressé par le contenu du programme du Master Industrie, pouvez-vous m'en parler ?",
+    "Quelles sont les matières couvertes dans le programme du Master Industrie ?",
+    "Pourriez-vous me décrire le programme d'études du Master Industrie ?"
+  ],
+  "responses": [
+    "Le Master Industrie V4.0 offre un programme d'études avancées axé sur les technologies de l'industrie 4.0, incluant la gestion de la production, l'automatisation industrielle, la logistique, l'optimisation des processus et la transformation numérique des entreprises industrielles.",
+    "Le programme du Master Industrie se concentre sur les aspects clés de l'industrie 4.0. Les étudiants abordent des sujets tels que la gestion de la production, l'automatisation industrielle, la logistique et l'optimisation des processus. De plus, ils acquièrent des compétences en matière de transformation numérique des entreprises industrielles pour répondre aux défis de l'ère numérique.",
+    "Dans le cadre du programme du Master Industrie, les étudiants étudient les dernières technologies de l'industrie 4.0. Le programme couvre des domaines tels que la gestion de la production, l'automatisation industrielle, la logistique et l'optimisation des processus. Les étudiants acquièrent une expertise pratique dans la transformation numérique des entreprises industrielles.",
+    "Le programme du Master Industrie est conçu pour former les étudiants aux technologies de pointe de l'industrie 4.0. Les matières couvertes comprennent la gestion de la production, l'automatisation industrielle, la logistique, l'optimisation des processus et la transformation numérique des entreprises industrielles. Les étudiants développent des compétences clés pour réussir dans le domaine de l'industrie moderne.",
+    "Le programme du Master Industrie est axé sur les compétences nécessaires pour exceller dans l'industrie 4.0. Les étudiants explorent des sujets tels que la gestion de la production, l'automatisation industrielle, la logistique et l'optimisation des processus. Ils acquièrent également des connaissances en matière de transformation numérique pour aider les entreprises industrielles à s'adapter aux nouvelles technologies et aux défis du marché."
+  ]
+}, 
+{
+  "tag": "Licences",
+  "patterns": [
+    "Quelles sont les filières de licence disponibles dans votre Institut ?",
+    "Pouvez-vous me donner des informations sur les filières de licence proposées dans votre Institut ?",
+    "Quelles options de licence offre votre Institut ?",
+    "Je suis intéressé par les filières de licence, pouvez-vous m'en dire plus sur celles disponibles dans votre Institut ?",
+    "Pourriez-vous me décrire les filières de licence que vous proposez dans votre Institut ?"
+  ],
+  "responses": [
+    "Dans notre Institut, nous proposons deux filières de licence. Il s'agit de la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels, et de la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Pour plus d'informations sur ces filières, vous pouvez consulter notre site web.",
+    "Nous proposons les licences suivantes : Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels et Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Ces filières offrent aux étudiants une formation approfondie dans leurs domaines respectifs et les préparent à une carrière réussie dans l'industrie.",
+    "Les filières de licence disponibles dans notre Institut comprennent la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels, ainsi que la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Ces programmes offrent aux étudiants une formation complète et les préparent à relever les défis de l'industrie moderne.",
+    "Au sein de notre Institut, nous offrons deux filières de licence : la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels et la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Ces filières sont conçues pour fournir aux étudiants les connaissances et les compétences nécessaires pour réussir dans leurs domaines respectifs.",
+    "Si vous êtes intéressé par les filières de licence, notre Institut propose deux options. Vous pouvez choisir entre la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels et la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Ces filières offrent des programmes d'études complets et pertinents pour préparer les étudiants à une carrière dans l'industrie et les technologies de l'information."
+  ]
+},
+{
+  "tag": "Spécialité Licence GénieInformatique",
+  "patterns": [
+    "Quelle est la spécialisation offerte dans la Licence en Informatique dans votre Institut ?",
+"La spécialité de la licence en génie informatique",
+"Quels sont les domaines couverts par la spécialisation en Génie Logiciel et Système d'Information de la Licence en Informatique ?",
+"Pouvez-vous me donner des informations sur la spécialité de la Licence en Informatique dans votre Institut ?",
+"Quelles compétences et connaissances seront développées dans la spécialisation en Génie Logiciel et Système d'Information de la Licence en Informatique ?"
+  ],
+  "responses": [
+    "La Licence en Informatique dans notre Institut propose une spécialisation en Génie Logiciel et Système d'Information.",
+    "La spécialisation offerte dans la Licence en Informatique de notre Institut est axée sur le Génie Logiciel et les Systèmes d'Information. Les étudiants auront l'occasion d'approfondir leurs connaissances dans ces domaines clés et de développer des compétences pratiques pour concevoir, développer et gérer des logiciels et des systèmes informatiques.",
+    "Dans le cadre de la Licence en Informatique de notre Institut, la spécialisation offerte est le Génie Logiciel et Système d'Information. Cette spécialité permet aux étudiants d'acquérir des connaissances approfondies dans le développement de logiciels, la gestion des systèmes d'information et les technologies émergentes de l'industrie informatique.",
+    "La Licence en Informatique de notre Institut propose une spécialisation en Génie Logiciel et Système d'Information. Cette spécialité permet aux étudiants de se concentrer sur les aspects pratiques du développement de logiciels, de l'analyse des systèmes d'information et de l'utilisation de technologies avancées pour résoudre des problèmes informatiques complexes.",
+    "Si vous choisissez la Licence en Informatique dans notre Institut, vous aurez la possibilité de vous spécialiser en Génie Logiciel et Système d'Information. Cette spécialisation vous permettra de développer des compétences approfondies dans la conception, le développement et la gestion de logiciels, ainsi que dans l'analyse et l'utilisation efficace des systèmes d'information."
+  ]
+},
+
+{
+  "tag": "Spécialité Licence GénieIndustriel",
+  "patterns": [
+    "Quelle est la spécialisation offerte dans la Licence en Génie Industriel dans votre Institut ?",
+    "La spécialité de la licence en génie industriel",
+    "Quels sont les domaines couverts par la spécialisation en Management des Systèmes Industriels de la Licence en Génie Industriel ?",
+    "Pouvez-vous me donner des informations sur la spécialité de la Licence en Génie Industriel dans votre Institut ?",
+    "Quelles compétences et connaissances seront développées dans la spécialisation en Management des Systèmes Industriels de la Licence en Génie Industriel ?"
+  ],
+  "responses": [
+    "Nous proposons la Licence en Génie Industriel : Management des Systèmes Industriels qui est axée sur la gestion des systèmes industriels, la logistique, la gestion de la qualité, la gestion de projet, etc. Elle peut être une option d'orientation pour ceux intéressés par le management dans le domaine industriel.",
+    "La spécialisation offerte dans la Licence en Génie Industriel de notre Institut est axée sur le Management des Systèmes Industriels. Les étudiants auront l'occasion d'approfondir leurs connaissances dans ces domaines clés et de développer des compétences pratiques pour gérer efficacement les systèmes industriels, améliorer les processus et relever les défis de l'industrie.",
+    "La spécialisation en Management des Systèmes Industriels de la Licence en Génie Industriel couvre des domaines tels que la gestion de la chaîne d'approvisionnement, la planification de la production, l'optimisation des processus, la gestion de la qualité et la gestion des opérations. Les étudiants acquerront des compétences pour analyser et améliorer les performances des systèmes industriels, gérer efficacement les ressources et mettre en place des stratégies de gestion pour assurer le succès des entreprises industrielles.",
+    "Dans la spécialité de la Licence en Génie Industriel axée sur le Management des Systèmes Industriels, les étudiants seront formés à la gestion des opérations industrielles, à la planification et à l'optimisation des processus, à la logistique, à la gestion de la qualité et à la gestion de projet. Ils acquerront des compétences pratiques et des connaissances approfondies dans ces domaines essentiels de la gestion des systèmes industriels.",
+    "La spécialisation en Management des Systèmes Industriels de la Licence en Génie Industriel vise à former les étudiants aux principes et aux pratiques de gestion efficace des systèmes industriels. Les domaines couverts comprennent la logistique, la gestion de la chaîne d'approvisionnement, l'optimisation des processus, la gestion de la qualité, la gestion de projet et la prise de décision stratégique. Les étudiants développeront des compétences pratiques et des connaissances approfondies pour relever les défis de l'industrie et contribuer au succès des entreprises industrielles."
+  ]
+},
+{
+  "tag": "Info",
+  "patterns": [
+    "j'aimerai faire une licence en informatique",
+    "j'aime faire une licence en informatique",
+    "je veux faire une licence en informatique",
+    "je veux faire une licence en info",
+    "je voulais faire une licence en informatique"
+  ],
+  "responses": [
+    "Quel est votre parcours académique actuel ? Avez-vous déjà obtenu un diplôme dans un domaine lié à l'informatique ?",
+    "Avez-vous suivi un cycle de licence ou un cycle préparatoire ?",
+    "Est-ce que vous avez suivi un cycle de licence ou un cycle préparatoire ?",
+    "Si vous souhaitez faire une licence en informatique chez l'IIT, vous devez avoir obtenu votre baccalauréat en Mathématiques, Sciences expérimentales, Sciences techniques ou Sciences de l'informatique.",
+    "Si vous avez obtenu votre baccalauréat en Mathématiques, Sciences expérimentales, Sciences techniques ou Sciences de l'informatique, alors oui, vous pouvez faire une licence en informatique chez l'IIT."
+  ]
+},
+{
+  "tag": "Info Conseil",
+  "patterns": [
+    "Quels sont les prérequis pour une licence en informatique ?",
+    "Qu'est-ce qu'il me faut pour faire une licence en informatique ?",
+    "De quoi ai-je besoin pour suivre une licence en informatique ?",
+    "Quels sont les critères d'admission pour une licence en informatique ?",
+    "Quels diplômes ou compétences sont nécessaires pour accéder à une licence en informatique ?"
+  ],
+  "responses": [
+    "Pour faire une licence en informatique, vous aurez généralement besoin d'un diplôme de fin d'études secondaires ou équivalent, ainsi que des compétences en mathématiques et en informatique de base. Il est également recommandé d'avoir de bonnes compétences en communication et en résolution de problèmes, ainsi que des compétences en programmation et en langues étrangères.",
+    "Pour être admis dans une licence en informatique, vous devez généralement avoir un diplôme de fin d'études secondaires ou équivalent. De plus, il est préférable d'avoir des compétences en mathématiques, en informatique et en programmation. Certaines universités peuvent également demander des compétences en langues étrangères et en communication.",
+    "Les critères d'admission pour une licence en informatique peuvent varier d'une université à l'autre, mais en général, vous aurez besoin d'un diplôme de fin d'études secondaires ou équivalent, avec des compétences en mathématiques et en informatique de base. Certaines universités peuvent également exiger des résultats académiques solides et évaluer vos compétences en programmation lors du processus d'admission.",
+    "Pour accéder à une licence en informatique, vous aurez besoin d'un diplôme de fin d'études secondaires ou équivalent, ainsi que de compétences en mathématiques et en informatique. Certaines universités peuvent également demander des compétences en programmation et en langues étrangères. Il est important de vérifier les critères d'admission spécifiques de l'université où vous souhaitez postuler.",
+    "Pour faire une licence en informatique, vous devez généralement avoir un diplôme de fin d'études secondaires ou équivalent, ainsi que des compétences de base en mathématiques et en informatique. Les compétences en programmation et en langues étrangères peuvent également être requises selon l'université. Il est recommandé de consulter les critères d'admission de l'université spécifique pour obtenir des informations précises."
+  ]
+},
+{
+  "tag": "Postuler Licence Informatique",
+  "patterns": [
+    "Comment puis-je postuler à une licence en informatique ?",
+    "Quelles sont les exigences pour s'inscrire à une licence en informatique ?",
+    "Quel est le processus de candidature pour une licence en informatique ?",
+    "Quels sont les documents nécessaires pour postuler à une licence en informatique ?",
+    "Est-ce qu'il y a une date limite pour soumettre sa candidature pour une licence en informatique ?"
+  ],
+  "responses": [
+    "Pour postuler à une licence en informatique, vous devez remplir un formulaire de demande et fournir des documents tels que des relevés de notes, des lettres de recommandation et des résultats de tests standardisés. Il est également important de vérifier les dates limites de candidature et de respecter tous les délais pour éviter de manquer l'opportunité d'être admis.",
+    "Le processus de candidature pour une licence en informatique implique de remplir un formulaire en ligne avec vos informations personnelles, vos antécédents académiques et vos motivations. Vous devrez également fournir des documents supplémentaires tels que des relevés de notes, des lettres de recommandation et des résultats de tests standardisés, le cas échéant.",
+    "Les exigences pour s'inscrire à une licence en informatique incluent généralement la soumission d'un formulaire de demande, de relevés de notes, de lettres de recommandation et de résultats de tests standardisés. Certaines universités peuvent également exiger une lettre de motivation ou un entretien d'admission.",
+    "Pour postuler à une licence en informatique, vous devrez fournir des documents tels que des relevés de notes de vos études précédentes, des lettres de recommandation de professeurs ou d'employeurs, ainsi que des résultats de tests standardisés comme le SAT ou l'ACT. Assurez-vous de consulter les exigences spécifiques de chaque université ou institut où vous souhaitez postuler.",
+    "Oui, il y a généralement une date limite pour soumettre sa candidature pour une licence en informatique. Les dates limites varient d'une université à l'autre, il est donc important de vérifier les délais spécifiques de chaque établissement où vous souhaitez postuler. Assurez-vous de soumettre votre candidature complète avant la date limite pour être pris en considération."
+  ]
+},
+{
+  "tag": "Etudiant étranger",
+  "patterns": [
+    "Je suis étudiant étranger intéressé par les filières ingénieur, quelles sont les options disponibles pour les étudiants internationaux dans votre Institut ?",
+    "Quelles sont les filières d'ingénieur accessibles aux étudiants étrangers dans votre Institut ?",
+    "Pouvez-vous me donner des informations sur les options de filières ingénieur pour les étudiants internationaux ?",
+    "J'aimerais connaître les possibilités de filières d'ingénieur pour les étudiants étrangers dans votre Institut.",
+    "Quels programmes d'ingénieur sont ouverts aux étudiants internationaux dans votre Institut ?"
+  ],
+  "responses": [
+    "En tant qu'étudiant étranger, vous pouvez choisir parmi plusieurs options de filières ingénieur dans notre Institut, notamment le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Nous pouvons vous fournir des informations détaillées sur ces options ainsi que sur les démarches administratives nécessaires pour les étudiants internationaux.",
+    "Dans notre Institut, les étudiants étrangers ont la possibilité de rejoindre différentes filières d'ingénieur telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Si vous êtes intéressé par l'une de ces filières, nous pouvons vous fournir des informations supplémentaires sur les programmes spécifiques et les procédures d'admission pour les étudiants internationaux.",
+    "Pour les étudiants étrangers intéressés par les filières ingénieur, notre Institut propose plusieurs options, notamment le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Vous pouvez obtenir plus d'informations sur ces filières ainsi que sur les exigences d'admission et les procédures pour les étudiants internationaux en nous contactant.",
+    "Si vous êtes un étudiant étranger intéressé par les filières ingénieur, vous avez différentes options dans notre Institut. Nous proposons des programmes tels que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Nous serions ravis de discuter plus en détail de ces options avec vous et de répondre à toutes vos questions concernant les possibilités pour les étudiants internationaux.",
+    "Notre Institut offre aux étudiants étrangers plusieurs options de filières ingénieur, notamment le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Si vous souhaitez en savoir plus sur ces programmes, les procédures d'admission pour les étudiants internationaux ou toute autre information pertinente, n'hésitez pas à nous contacter."
+  ]
+},
+{
+"tag": "tarifs génie informatique",
+"patterns": [
+"Quels sont les tarifs pour la formation en génie informatique ?",
+"Combien coûte le génie informatique ?",
+"Quel est le prix de la formation en génie informatique ?",
+"Quels sont les coûts associés à la filière génie informatique ?",
+"Pouvez-vous me donner des informations sur les tarifs du génie informatique ?"
+],
+"responses": [
+   "Les tarifs sont de 5000 pour la première année, de 6000 pour la deuxième année et de 7000 pour la troisième année ",
+"Les prix s'élèvent à 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année",
+"Pour la première année, les tarifs sont de 5000, pour la deuxième année de 6000, et pour la troisième année de 7000",
+"Les tarifs varient selon l'année : 5000 pour la première, 6000 pour la deuxième et 7000 pour la troisième",
+"Pour la première année, les tarifs sont fixés à 5000, puis augmentent à 6000 pour la deuxième année et à 7000 pour la troisième année"
+  ]
+},
+ {
+  "tag": "tarifs génie mécanique",
+  "patterns": [
+    "tarif génie mécanique",
+    "prix génie mécanique",
+    "coût génie mécanique",
+    "Combien coûte le génie mécanique ?",
+    "Quel est le prix du programme de génie mécanique ?"
+  ],
+  "responses": [
+    "Les tarifs sont les suivants : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année",
+    "Le tarif du génie mécanique est de 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Les coûts du programme de génie mécanique se répartissent comme suit : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Pour bénéficier du programme de génie mécanique, vous devrez payer 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le prix du génie mécanique s'établit à 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année."
+  ]
+},
+{
+  "tag": "tarifs génie des procédures",
+  "patterns": [
+    "tarif génie des procédures",
+    "prix génie des procédures",
+    "coût génie des procédures",
+    "Combien coûte le génie des procédures ?",
+    "Quel est le prix du programme de génie des procédures ?"
+  ],
+  "responses": [
+    "Les tarifs sont les suivants : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le tarif du génie des procédures est de 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Les coûts du programme de génie des procédures se répartissent comme suit : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Pour bénéficier du programme de génie des procédures, vous devrez payer 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le prix du génie des procédures s'établit à 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année."
+  ]
+},
+{
+  "tag": "tarifs génie civil",
+  "patterns": [
+    "tarif génie civil",
+    "prix génie civil",
+    "coût génie civil",
+    "Combien coûte le génie civil ?",
+    "Quel est le prix du programme de génie civil ?"
+  ],
+  "responses": [
+    "Les tarifs sont les suivants : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le tarif du génie civil est de 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Les coûts du programme de génie civil se répartissent comme suit : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Pour bénéficier du programme de génie civil, vous devrez payer 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le prix du génie civil s'établit à 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année."
+  ]
+}, 
+{
+  "tag": "tarifs licence en génie industriel",
+  "patterns": [
+    "tarif licence en génie industriel",
+    "prix licence en génie industriel",
+    "coût licence en génie industriel",
+    "Combien coûte la licence en génie industriel ?",
+    "Quel est le prix du programme de licence en génie industriel ?"
+  ],
+  "responses": [
+    "Les tarifs sont les suivants : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le tarif de la licence en génie industriel est de 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Les coûts du programme de licence en génie industriel se répartissent comme suit : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Pour bénéficier du programme de licence en génie industriel, vous devrez payer 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le prix de la licence en génie industriel s'établit à 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année."
+  ]
+},
+{
+  "tag": "tarifs licence informatique",
+  "patterns": [
+    "tarif licence informatique",
+    "prix licence informatique",
+    "coût licence informatique",
+    "Combien coûte la licence informatique ?",
+    "Quel est le prix du programme de licence informatique ?"
+  ],
+  "responses": [
+    "Les tarifs sont les suivants : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le tarif de la licence informatique est de 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Les coûts du programme de licence informatique se répartissent comme suit : 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Pour bénéficier du programme de licence informatique, vous devrez payer 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année.",
+    "Le prix de la licence informatique s'établit à 5000 pour la première année, 6000 pour la deuxième année et 7000 pour la troisième année."
+  ]
+},
+{
+  "tag": "tarifs cycle préparatoire",
+  "patterns": [
+    "tarif cycle préparatoire",
+    "prix cycle préparatoire",
+    "coût cycle préparatoire",
+    "Combien coûte le cycle préparatoire ?",
+    "Quel est le prix du programme de cycle préparatoire ?"
+  ],
+  "responses": [
+    "Les tarifs sont les suivants : 5000 pour la première année et 6000 pour la deuxième année.",
+    "Le tarif du cycle préparatoire est de 5000 pour la première année et 6000 pour la deuxième année.",
+    "Les coûts du programme de cycle préparatoire se répartissent comme suit : 5000 pour la première année et 6000 pour la deuxième année.",
+    "Pour bénéficier du programme de cycle préparatoire, vous devrez payer 5000 pour la première année et 6000 pour la deuxième année.",
+    "Le prix du cycle préparatoire s'établit à 5000 pour la première année et 6000 pour la deuxième année."
+  ]
+},
+
+{
+"tag": "période",
+"patterns": [
+"délai inscription",
+"Quand est-ce que je peux m'inscrire ?",
+"Quelle est la période d'inscription ?",
+"Jusqu'à quand puis-je m'inscrire ?",
+"Quand débute la période d'inscription ?"
+],
+"responses": [
+"La période d'inscription commence généralement du mois de juillet au mois de septembre, après avoir effectué la préinscription.",
+"Vous pouvez vous inscrire entre le mois de juillet et le mois de septembre, après avoir réalisé la préinscription.",
+"Les inscriptions sont ouvertes de juillet à septembre, après avoir procédé à la préinscription.",
+"La période d'inscription débute habituellement au mois de juillet et se termine au mois de septembre, une fois que vous avez effectué la préinscription.",
+"Après avoir fait la préinscription, vous pouvez vous inscrire entre juillet et septembre."
+]
+},
+{
+  "tag": "Date limite ins",
+  "patterns": [
+    "Quelle est la date limite pour faire l'inscription ?",
+    "Quand est la date limite d'inscription ?",
+    "Jusqu'à quand puis-je m'inscrire ?",
+    "Quand est la fin de la période d'inscription ?",
+    "Quand doit-on finaliser l'inscription ?"
+  ],
+  "responses": [
+    "La date limite pour faire l'inscription est généralement fixée à une semaine avant le début des cours, soit le 14 septembre.",
+    "Vous devez effectuer votre inscription avant le 14 septembre, qui marque la date limite avant une semaine du début des cours.",
+    "La fin de la période d'inscription se situe habituellement une semaine avant le début des cours, c'est-à-dire le 14 septembre.",
+    "Vous pouvez vous inscrire jusqu'au 14 septembre, qui est la date limite avant une semaine du début des cours.",
+    "Assurez-vous de finaliser votre inscription avant le 14 septembre, qui marque la fin de la période d'inscription."
+  ]
+},
+{
+  "tag": "procédure inscription",
+  "patterns": [
+    "Quelles sont les procédures d'inscription ?",
+    "Donne-moi les étapes pour m'inscrire.",
+    "Qu'est-ce que je dois faire pour m'inscrire ?",
+    "Comment se déroule le processus d'inscription ?",
+    "Explique-moi la procédure d'inscription."
+  ],
+  "responses": [
+    "La procédure d'inscription comprend tout d'abord la réalisation d'une préinscription, puis vous devrez passer un entretien avec le chef de département à IIT.",
+    "Pour vous inscrire, vous devez commencer par effectuer une préinscription, puis vous serez invité à passer un entretien avec le chef de département à IIT.",
+    "Les étapes pour l'inscription sont les suivantes : effectuer une préinscription, puis passer un entretien avec le chef de département à IIT.",
+    "La procédure d'inscription implique de faire une préinscription initiale, puis de passer un entretien avec le chef de département à IIT.",
+    "Pour vous inscrire, vous devrez tout d'abord réaliser une préinscription, puis vous serez convoqué à un entretien avec le chef de département à IIT."
+  ]
+},
+{
+"tag": "procédure pré-inscription",
+"patterns": [
+"Quelles sont les procédures de préinscription ?",
+"Comment faire la préinscription ?",
+"Quels sont les étapes pour la préinscription ?",
+"Expliquez-moi la procédure de préinscription.",
+"Qu'est-ce que je dois faire pour me préinscrire ?"
+],
+"responses": [
+"La procédure de préinscription est simple. Il vous suffit de visiter notre site web et de cliquer sur le lien de préinscription situé en haut de la page d'accueil. Ensuite, vous devez remplir le formulaire en fournissant vos informations personnelles, telles que votre nom, prénom, adresse, etc. Vous devrez également indiquer votre dernier diplôme obtenu ainsi que le diplôme que vous souhaitez poursuivre. Une fois le formulaire soumis, notre équipe administrative vous contactera dans les meilleurs délais pour fixer un rendez-vous d'entretien et finaliser votre inscription.",
+"Après avoir visité notre site web, vous pouvez accéder à la section de préinscription en cliquant sur le lien approprié. Remplissez ensuite le formulaire en fournissant vos informations personnelles, telles que votre nom, prénom, adresse, etc. N'oubliez pas de préciser votre dernier diplôme obtenu ainsi que le diplôme que vous souhaitez poursuivre. Une fois que vous avez soumis le formulaire, notre équipe administrative vous contactera rapidement pour planifier un entretien et finaliser votre inscription.",
+"Pour entamer la procédure de préinscription, rendez-vous sur notre site web. Là, vous trouverez un lien dédié à la préinscription. Cliquez dessus pour accéder au formulaire en ligne. Remplissez-le avec soin, en fournissant toutes les informations demandées. Une fois que vous avez terminé, envoyez le formulaire. Nous vous contacterons ensuite pour organiser une rencontre et finaliser votre inscription.",
+"Si vous souhaitez vous préinscrire, il vous suffit de vous rendre sur notre site web et de chercher l'onglet ou le lien dédié à la préinscription. Cliquez dessus et vous serez dirigé vers le formulaire de préinscription. Remplissez le formulaire en indiquant vos coordonnées personnelles et vos informations académiques pertinentes. Après avoir soumis le formulaire, notre équipe vous contactera pour convenir d'un entretien et finaliser votre inscription.",
+"La procédure de préinscription est simple et rapide. Connectez-vous à notre site web et cherchez l'option de préinscription. En cliquant sur le lien, vous accéderez à un formulaire en ligne. Remplissez-le attentivement avec toutes vos informations requises, y compris votre nom, prénom, adresse et informations scolaires. Une fois que vous avez terminé, soumettez le formulaire. Notre équipe administrative vous contactera sous peu pour discuter des prochaines étapes et finaliser votre inscription."
+]
+},
+{
+    "tag": "date limite pré",
+    "patterns": [
+        "Quelle est la date limite pour faire une préinscription ?",
+        "Jusqu'à quand puis-je faire ma préinscription ?",
+        "Y a-t-il une date limite pour la préinscription ?",
+        "Quand est la fin de la période de préinscription ?",
+        "Est-ce que je peux faire ma préinscription après le 17 juillet ?"
+    ],
+    "responses": [
+        "La date limite pour faire une préinscription est le 17 juillet.",
+        "La préinscription doit être effectuée avant le 17 juillet.",
+        "Assurez-vous de compléter votre préinscription avant le 17 juillet.",
+        "Le 17 juillet est la date limite pour soumettre votre préinscription.",
+        "N'oubliez pas que la préinscription doit être faite avant le 17 juillet."
+    ]
+},
+
+{
+    "tag": "documents insc",
+    "patterns": [
+        "Quels sont les documents nécessaires pour mon inscription ?",
+        "De quels documents ai-je besoin pour m'inscrire ?",
+        "Quelles pièces justificatives dois-je fournir pour mon inscription ?",
+        "Pouvez-vous me dire quels documents je dois apporter pour l'inscription ?",
+        "Quels papiers sont requis lors de l'inscription ?"
+    ],
+    "responses": [
+        "Les documents nécessaires pour votre inscription sont les suivants : apporter vos derniers diplômes, votre photo d'identité, remplir le règlement intérieur et payer les frais d'inscription.",
+        "Pour votre inscription, vous devrez fournir vos derniers diplômes, une photo d'identité, remplir le règlement intérieur et effectuer le paiement des frais d'inscription.",
+        "Lors de votre inscription, veuillez préparer les documents suivants : vos derniers diplômes, une photo d'identité, le règlement intérieur dûment rempli et le paiement des frais d'inscription.",
+        "Pour mener à bien votre inscription, vous aurez besoin des documents suivants : vos derniers diplômes, une photo d'identité, le règlement intérieur complété et le paiement des frais d'inscription.",
+        "Assurez-vous d'apporter les documents suivants pour votre inscription : vos derniers diplômes, une photo d'identité, le règlement intérieur rempli et les frais d'inscription."
+    ]
+},
+
+{
+    "tag": "frais insc info",
+    "patterns": [
+        "Quels sont les frais d'inscription pour la 1ère année en génie informatique ?",
+        "Combien coûte l'inscription en génie informatique pour la 1ère année ?",
+        "Pouvez-vous me dire le montant des frais d'inscription pour le génie informatique en 1ère année ?",
+        "Quel est le tarif d'inscription pour la filière génie informatique en première année ?",
+        "Je voudrais connaître les frais d'inscription pour le génie informatique en début de cursus."
+    ],
+    "responses": [
+        "Les frais d'inscription pour la 1ère année en génie informatique sont fixés à 500d pour toutes les filières.",
+        "Pour la 1ère année en génie informatique, les frais d'inscription s'élèvent à 500d, quel que soit le choix de filière.",
+        "Quelle que soit la filière choisie, les frais d'inscription pour la 1ère année en génie informatique sont de 500d.",
+        "Le montant des frais d'inscription pour la 1ère année en génie informatique est de 500d, indépendamment de la spécialisation.",
+        "Si vous souhaitez vous inscrire en génie informatique pour la 1ère année, les frais d'inscription sont de 500d pour toutes les filières."
+    ]
+},
+{
+    "tag": "info cours",
+    "patterns": [
+        "Est-ce que les séances seront divisées en cours / td et tp ?",
+        "Comment seront organisées les séances entre les cours, les travaux dirigés (TD) et les travaux pratiques (TP) ?",
+        "Y aura-t-il des séparations entre les cours, les TD et les TP ?",
+        "Quelle sera la répartition des séances entre les cours, les TD et les TP ?",
+        "Pouvez-vous me donner des informations sur l'organisation des séances entre les différents types d'enseignement ?"
+    ],
+    "responses": [
+        "Non, les séances ne seront pas divisées en cours, TD et TP. Le professeur indiquera à chaque séance ce que vous allez étudier, car cela diffère selon la matière.",
+        "L'organisation des séances ne se fera pas selon la division traditionnelle en cours, TD et TP. Le professeur vous informera à chaque séance du contenu spécifique à étudier, en fonction de la matière concernée.",
+        "Il n'y aura pas de séparations fixes entre les cours, les TD et les TP. Le déroulement des séances sera adapté au contenu spécifique de chaque matière, tel que déterminé par le professeur.",
+        "La répartition des séances ne sera pas préétablie entre les cours, les TD et les TP. Le professeur vous donnera des indications sur ce qui sera étudié à chaque séance, en fonction de la matière abordée.",
+        "Les séances ne seront pas préalablement divisées en cours, TD et TP. Le contenu à étudier sera déterminé par le professeur lors de chaque séance, en fonction des besoins pédagogiques."
+    ]
+},
+
+{
+    "tag": "Sujet or",
+    "patterns": [
+        "Quels sont les sujets couverts par les filières d'ingénieur qui pourraient intéresser un étudiant doué par la gestion d'entreprise et l'optimisation des processus ?",
+        "Quelles sont les meilleures orientations pour un étudiant intéressé par la gestion d'entreprise et l'optimisation des processus ?",
+        "Quelles filières d'ingénieur sont adaptées à un étudiant passionné par la gestion d'entreprise et l'optimisation des processus ?",
+        "Pouvez-vous me suggérer des domaines d'études en ingénierie liés à la gestion d'entreprise et à l'optimisation des processus ?",
+        "Quelles spécialisations en ingénierie pourraient intéresser un étudiant ayant des compétences en gestion d'entreprise et en optimisation des processus ?"
+    ],
+    "responses": [
+        "Les filières d'ingénieur comme le Génie Industriel et le Génie des Procédés peuvent être des options d'orientation intéressantes pour un étudiant passionné par la gestion d'entreprise et l'optimisation des processus. Elles couvrent généralement des sujets tels que la gestion de la production, l'organisation industrielle, la logistique, la gestion de la qualité, etc.",
+        "Si vous êtes intéressé par la gestion d'entreprise et l'optimisation des processus, vous pourriez envisager des filières d'ingénieur telles que le Génie Industriel et le Génie des Procédés. Ces domaines d'études abordent des sujets liés à la gestion de la production, l'amélioration des processus, l'efficacité opérationnelle, etc.",
+        "Pour un étudiant ayant des compétences en gestion d'entreprise et en optimisation des processus, des filières d'ingénieur telles que le Génie Industriel et le Génie des Procédés pourraient être des choix appropriés. Ces spécialisations couvrent des domaines tels que la planification et le contrôle de la production, l'analyse des processus, la gestion de la chaîne d'approvisionnement, etc.",
+        "Si vous êtes doué pour la gestion d'entreprise et l'optimisation des processus, vous pourriez vous orienter vers des filières d'ingénieur comme le Génie Industriel et le Génie des Procédés. Ces domaines d'études vous permettront d'approfondir vos connaissances en gestion de la production, en gestion de la qualité, en planification des ressources, etc.",
+        "Pour un étudiant intéressé par la gestion d'entreprise et l'optimisation des processus, des filières d'ingénieur telles que le Génie Industriel et le Génie des Procédés offrent des sujets de recherche et d'étude pertinents. Vous pourrez explorer des thèmes comme l'organisation industrielle, l'amélioration continue, la modélisation des processus, etc."
+    ]
+},
+
+{
+    "tag": "Genie telec secteur",
+    "patterns": [
+        "Quels sont les différents débouchés professionnels possibles pour les diplômés de la filière Génie des télécommunications ?",
+        "Quels secteurs et domaines offrent des opportunités de carrière aux spécialistes en Génie des télécommunications ?",
+        "Quelles sont les options de carrière pour les étudiants diplômés en Génie des télécommunications ?",
+        "Quels sont les domaines d'emploi pour les professionnels de la filière Génie des télécommunications ?",
+        "Pouvez-vous me donner des informations sur les perspectives professionnelles pour les diplômés en Génie des télécommunications ?"
+    ],
+    "responses": [
+        "Les débouchés professionnels de la filière Génie des télécommunications peuvent inclure des carrières dans les télécommunications, les réseaux de communication, la conception et la gestion de systèmes de communication, les opérateurs de télécommunications, les entreprises de technologie de l'information, etc.",
+        "Les diplômés de la filière Génie des télécommunications peuvent trouver des opportunités de carrière dans divers secteurs, tels que les télécommunications, les réseaux informatiques, les services de communication, les fournisseurs d'accès Internet, les entreprises de téléphonie mobile, etc.",
+        "Les spécialistes en Génie des télécommunications ont la possibilité d'explorer des carrières dans les secteurs des télécommunications, des réseaux de communication, de l'ingénierie des systèmes de communication, des technologies sans fil, des infrastructures de réseau, etc.",
+        "Les diplômés en Génie des télécommunications peuvent envisager des emplois dans des secteurs tels que les télécommunications, les technologies de l'information, les services de communication, les entreprises de téléphonie, les équipementiers de réseau, etc.",
+        "Les professionnels issus de la filière Génie des télécommunications peuvent trouver des débouchés dans divers domaines, notamment les télécommunications, les réseaux de communication, les systèmes sans fil, les infrastructures de réseau, les entreprises de technologie, etc."
+    ]
+},
+{"tag": "programme total",
+      "patterns": [
+        "Quel est le programme d'études à l'iit ? ",
+        "Quels sont les cours proposés dans le programme d'études à l'IIT ?",
+        "Pourriez-vous m'en dire plus sur les programmes de formation disponibles à l'IIT ?",
+        "Dis moi les programmes de formation disponibles à l'IIT ?",
+        "Quelles sont les matières enseignées dans le cadre des programmes d'études de l'IIT ? "
+      ],
+
+      "responses": [
+        "L'IIT (Institut International de Technologies)  propose des programmes d'études en sciences de l'ingénieur, technologie,Licenses.. Les programmes d'études à l'IIT sont structurés pour offrir une formation pratique et une expérience de recherche approfondie aux étudiants. Les cours proposés dans le programme d'études à l'IIT varient en fonction du programme et de la spécialisation choisie par les étudiants. Les matières enseignées dans le cadre des programmes d'études de l'IIT peuvent inclure des sujets tels que les mathématiques, la physique, la chimie, l'informatique, les sciences de l'ingénieur, les télécommunications,etc..Les programmes de formation disponibles à l'IIT sont variés et couvrent un large éventail de domaines, tels que l'informatique, l'intelligence artificielle, la robotique, la mécanique, l'économie, le  management, etc. Les étudiants peuvent choisir leur spécialisation en fonction de leurs intérêts et de leurs objectifs de carrière. Le contenu des cours offerts à l'IIT est conçu pour offrir une formation théorique et pratique aux étudiants. Les cours sont généralement axés sur la résolution de problèmes, l'expérimentation, la recherche et le développement de compétences pratiques en laboratoire et sur le terrain. Les programmes d'études à l'IIT sont réputés pour leur rigueur académique et leur exigence élevée.En résumé, l'IIT propose un large éventail de programmes de formation en sciences de l'ingénieur, technologie... Les programmes sont structurés pour offrir une formation pratique et une expérience de recherche approfondie aux étudiants. Les matières enseignées varient en fonction de la spécialisation choisie, et les cours sont axés sur la résolution de problèmes, l'expérimentation, la recherche et le développement de compétences pratiques.",
+"Les programmes de formation disponibles à l'IIT offrent aux étudiants une opportunité unique d'explorer différentes disciplines et de se spécialiser dans des domaines d'intérêt spécifiques. Que vous souhaitiez vous concentrer sur la robotique, les systèmes embarqués, l'intelligence artificielle ou d'autres domaines passionnants, l'IIT propose des programmes adaptés à vos aspirations. Les étudiants bénéficient également de ressources supplémentaires telles que des laboratoires bien équipés, des bibliothèques spécialisées et des collaborations avec des entreprises et des instituts de recherche renommés.",
+"Le contenu des cours offerts à l'IIT est constamment mis à jour pour refléter les avancées technologiques et les tendances du marché. Les étudiants bénéficient ainsi d'une formation actualisée et pertinente. Les cours sont dispensés par des professeurs expérimentés et des experts de l'industrie, ce qui permet aux étudiants d'acquérir une perspective pratique et de développer des compétences en lien avec les besoins du marché du travail.",
+"Les matières enseignées dans le cadre des programmes d'études de l'IIT sont soigneusement sélectionnées pour fournir aux étudiants une base solide dans leur domaine de spécialisation. Les cours couvrent des sujets tels que les mathématiques appliquées, la physique, la chimie, l'électronique, la programmation, la conception de systèmes, la gestion de projet, etc. Les étudiants ont la possibilité de choisir des cours électifs en fonction de leurs intérêts spécifiques.",
+"Le cursus proposé à l'IIT comprend à la fois des cours théoriques et des travaux pratiques. Les étudiants sont exposés à des concepts avancés et à des technologies de pointe dans leur domaine d'études. Le programme met également l'accent sur le développement des compétences transversales, telles que la pensée critique, la résolution de problèmes et la communication, qui sont essentielles pour réussir dans le monde professionnel."
+    ]
+
+  },
+ {"tag": "plan d'étude ",
+      "patterns": [
+        "c'est quoi le plan d'études proposé par l'IIT ?",
+        "c'est quoi le plan d'étude de l'IIT ?",
+        "Comment est structuré le programme d'études de l'IIT ?",
+"Est-ce que l'IIT propose des plans d'études flexibles en fonction des intérêts des étudiants ?",
+"Pouvez-vous me donner des informations sur le plan d'étude proposé par l'IIT ?"
+
+    
+  ],
+
+  "responses": [
+    "Le plan d'étude de l'Institut International de Technologies varie en fonction de la spécialité choisie par l'étudiant. En effet, chaque spécialité a ses propres exigences en termes de cours, de crédits et de projets de recherche. Par exemple, le plan d'étude pour les étudiants en génie civil comprend des cours sur les structures, la mécanique des sols, la géotechnique, les matériaux de construction, les méthodes de construction et la gestion de projet. En revanche, le plan d'étude pour les étudiants en informatique comprend des cours sur la programmation, les systèmes d'exploitation, les réseaux informatiques, les bases de données, la sécurité informatique ,l'intelligence artificielle,cloud computing, etc... De plus, l'Institut International de Technologies offre également des programmes de double diplôme, ce qui signifie que les étudiants peuvent suivre une partie de leur cursus dans une université étrangère partenaire et obtenir deux diplômes simultanément. Dans ce cas, le plan d'étude sera également différent selon l'université partenaire et la spécialité choisie. En outre, l'Institut International de Technologies offre également des programmes de formation continue pour les professionnels, avec des plans d'études spécifiques adaptés à leurs besoins et à leur niveau d'expertise. En somme, l'Institut International de Technologies propose un large éventail de spécialités et de programmes de formation, chacun ayant son propre plan d'étude adapté aux exigences de la discipline et aux objectifs de l'étudiant.",
+"La structure du plan d'étude à l'IIT est conçue pour offrir aux étudiants une progression logique dans l'acquisition des connaissances et des compétences. Les cours sont organisés de manière à ce que les concepts et les compétences apprises dans les cours précédents soient approfondis et appliqués dans les cours ultérieurs. Les projets de recherche et les stages sont également intégrés dans le plan d'étude pour permettre aux étudiants d'appliquer leurs connaissances dans des projets concrets.",
+"Le plan d'étude à l'IIT est flexible dans la mesure où il offre aux étudiants la possibilité de choisir des cours optionnels en fonction de leurs intérêts et de leurs objectifs de carrière. Cela leur permet d'explorer des domaines spécifiques qui correspondent à leurs aspirations professionnelles. De plus, l'IIT propose également des programmes de double diplôme en collaboration avec des universités partenaires, ce qui élargit encore les possibilités de personnalisation du plan d'étude.",
+"Le plan d'étude à l'IIT est élaboré en tenant compte des exigences de chaque spécialité et des normes académiques. Il vise à fournir une formation complète et équilibrée, en intégrant à la fois des connaissances théoriques et des compétences pratiques. Les étudiants sont guidés tout au long de leur parcours par des conseillers pédagogiques qui les aident à choisir les cours appropriés en fonction de leurs objectifs et de leurs aspirations.",
+"Le plan d'étude de l'Institut International de Technologies est conçu pour fournir aux étudiants une structure claire et cohérente dans leur parcours d'études. Il comprend une combinaison de cours obligatoires, de cours optionnels et de projets de recherche. Les étudiants doivent suivre et valider un certain nombre de crédits pour chaque semestre afin de progresser dans leur cursus."
+  ]
+  },
+{
+"tag": "plan pro",
+"patterns": [
+"c'est quoi le spécifique du programme d'études de l'IIT?",
+"Quel est la valeur ajoutée par le programme d'études de l'IIT?",
+"Par quoi se différencie le programme d'études dans l'IIT par rapport à d'autres universités ?",
+"En quoi les cours de gestion en relation avec le leadership sont-ils importants pour la formation des étudiants ?",
+"Comment les compétences en leadership acquises dans ces cours peuvent-elles aider les étudiants dans leur carrière future ?"
+],
+"responses": [
+    "Le programme d'études de l'IIT se distingue par son grand intérêt pour la gestion et la préparation de la vie professionnelle de ses étudiants. En effet, l'IIT offre des programmes de formation en gestion et en entrepreneuriat, qui permettent aux étudiants de développer leurs compétences en matière de leadership, de gestion de projet et de résolution de problèmes complexes. Les étudiants sont également encouragés à participer à des stages en entreprise et à des projets de recherche appliquée, ce qui leur permet d'acquérir une expérience pratique et de développer des compétences professionnelles précieuses. De plus, l'IIT met l'accent sur la préparation de ses étudiants à la vie professionnelle. Les programmes de formation incluent des cours sur la communication professionnelle, la négociation, la recherche d'emploi et la gestion de carrière. Les étudiants sont également encouragés à participer à des événements de réseautage avec des professionnels de l'industrie, des anciens élèves de l'IIT et d'autres experts du secteur. Ces événements leur permettent de développer leurs compétences en matière de réseautage et de découvrir les opportunités de carrière dans leur domaine d'études. En somme, le programme d'études de l'IIT se distingue par son grand intérêt pour la gestion et la préparation de la vie professionnelle de ses étudiants. Grâce à ses programmes de formation en gestion et en entrepreneuriat, ainsi qu'à son approche pratique de l'apprentissage, l'IIT prépare ses étudiants à devenir des leaders capables de relever les défis de l'industrie et de faire progresser leur carrière.",
+"L'IIT se démarque par son approche axée sur la gestion et la préparation professionnelle de ses étudiants. En offrant des programmes de formation en gestion et en entrepreneuriat, l'IIT permet aux étudiants de développer leurs compétences en leadership, en gestion de projet et en résolution de problèmes complexes. Des stages en entreprise et des projets de recherche appliquée sont fortement encouragés, offrant une expérience pratique et des compétences professionnelles précieuses. De plus, l'IIT met l'accent sur la préparation des étudiants à la vie professionnelle, en proposant des cours sur la communication professionnelle, la négociation, la recherche d'emploi et la gestion de carrière. Des événements de réseautage avec des professionnels de l'industrie et des anciens élèves permettent aux étudiants d'élargir leur réseau et de découvrir de nombreuses opportunités de carrière. En somme, grâce à son programme d'études orienté vers la gestion et la préparation professionnelle, l'IIT forme des leaders prêts à relever les défis de l'industrie et à faire progresser leur carrière.", 
+"L'IIT se distingue par son engagement envers la gestion et la préparation professionnelle de ses étudiants, en offrant des programmes de formation en gestion et entrepreneuriat. Ces programmes permettent aux étudiants de développer leurs compétences en leadership, en gestion de projet et en résolution de problèmes complexes. L'accent est mis sur l'acquisition d'une expérience pratique grâce à des stages en entreprise et des projets de recherche appliquée. De plus, l'IIT prépare activement ses étudiants à la vie professionnelle en proposant des cours axés sur la communication professionnelle, la négociation, la recherche d'emploi et la gestion de carrière. Les étudiants sont également encouragés à établir des liens professionnels en participant à des événements de réseautage avec des experts de l'industrie et des anciens élèves de l'IIT. En somme, le programme d'études de l'IIT se concentre sur la gestion et la préparation professionnelle, formant ainsi des leaders compétents et prêts à réussir dans leur carrière.",
+"L'IIT se démarque par son fort intérêt pour la gestion et la préparation professionnelle de ses étudiants. En proposant des programmes de formation en gestion et en entrepreneuriat, l'IIT permet aux étudiants de développer leurs compétences en leadership, en gestion de projet et en résolution de problèmes complexes. L'accent est mis sur l'expérience pratique grâce à des stages en entreprise et à des projets de recherche appliquée, offrant aux étudiants une opportunité précieuse d'acquérir des compétences professionnelles concrètes. De plus, l'IIT accorde une grande importance à la préparation des étudiants pour leur future carrière, en offrant des cours sur la communication professionnelle, la négociation, la recherche d'emploi et la gestion de carrière. Les étudiants sont encouragés à élargir leur réseau professionnel en participant à des événements de réseautage avec des experts de l'industrie et des anciens élèves de l'IIT. Grâce à cette approche holistique, l'IIT forme des leaders compétents et confiants, prêts à relever les défis de l'industrie et à réussir professionnellement.",
+"L'IIT se distingue par son engagement à préparer ses étudiants pour une carrière réussie. Le programme d'études met l'accent sur la gestion et l'entrepreneuriat, offrant aux étudiants l'opportunité de développer des compétences en leadership, en gestion de projet et en résolution de problèmes complexes. Des stages en entreprise et des projets de recherche appliquée permettent aux étudiants d'acquérir une expérience pratique précieuse. De plus, l'IIT met un accent particulier sur la préparation professionnelle en offrant des cours axés sur la communication, la négociation, la recherche d'emploi et la gestion de carrière. Les étudiants sont également encouragés à élargir leur réseau professionnel grâce à des événements de réseautage. En combinant ces éléments, l'IIT forme des étudiants compétents et prêts à réussir dans leur domaine d'études, prêts à relever les défis de l'industrie et à atteindre leurs objectifs professionnels."
+]
+  },
+{
+  "tag": "Questions généralisées",
+  "patterns": [
+    "Est-ce que je dois assister à tous les cours ?",
+    "Est-il obligatoire d'assister à tous les cours ?",
+    "Est-ce qu'il y a une présence obligatoire aux cours ?",
+    "Quelles sont les attentes concernant la participation aux cours ?",
+    "Y a-t-il des conséquences si je manque certains cours ?"
+  ],
+  "responses": [
+    "En général, il est fortement recommandé d'assister à tous les cours proposés dans les programmes d'études de l'IIT pour maximiser les chances de réussite académique et professionnelle.",
+    "Assister à tous les cours est vivement encouragé, car cela permet de suivre régulièrement les enseignements, d'interagir avec les enseignants et les autres étudiants, et de bénéficier d'une compréhension complète des sujets abordés.",
+    "La présence aux cours est généralement attendue, car cela favorise une participation active, des échanges enrichissants et une meilleure assimilation des connaissances.",
+    "Il est important de noter que certains cours peuvent avoir des politiques de présence obligatoire, veuillez vous référer aux directives spécifiques de chaque cours et de chaque enseignant.",
+    "La participation régulière aux cours permet d'obtenir des informations importantes, de poser des questions, de participer à des discussions et de bénéficier d'une expérience d'apprentissage plus complète."
+  ]
+},
+{
+  "tag": "projets communautaires",
+  "patterns": [
+    "Est-ce que les programmes d'études offrent des options de participation à des projets communautaires ?",
+    "Y a-t-il des opportunités de projets communautaires dans les programmes d'études ?",
+    "Est-ce que l'IIT encourage la participation des étudiants à des projets bénévoles ?",
+    "Quelles sont les possibilités de s'engager dans des projets communautaires lors des études à l'IIT ?",
+    "Est-ce qu'il y a des projets collaboratifs avec des organisations locales ou des associations ?"
+  ],
+  "responses": [
+    "En ce qui concerne les projets communautaires, l'IIT propose effectivement des options de participation à des projets en collaboration avec des organisations locales, des entreprises et des associations.",
+    "Les programmes d'études de l'IIT offrent des opportunités de s'engager dans des projets communautaires qui permettent aux étudiants d'appliquer leurs connaissances et compétences dans des contextes réels et de contribuer positivement à la société.",
+    "L'IIT valorise l'engagement social et encourage la participation des étudiants à des projets bénévoles et à des initiatives communautaires.",
+    "Les étudiants ont la possibilité de s'impliquer dans des projets collaboratifs avec des organisations locales, des associations et d'autres partenaires externes dans le cadre de leur programme d'études à l'IIT.",
+    "Participer à des projets communautaires offre aux étudiants l'occasion de mettre en pratique leurs compétences, de développer leur sens de la responsabilité sociale et de contribuer activement au bien-être de la communauté."
+  ]
+}, 
+{
+"tag": "clubs ass",
+"patterns": [
+"Est-ce que les programmes d'études offrent des options de participation à des clubs et associations étudiantes liés aux programmes d'études ?",
+"Y a-t-il des clubs et associations étudiantes liés aux programmes d'études à l'IIT ?",
+"Est-ce que l'IIT encourage la participation des étudiants à des clubs et associations liés à leur domaine d'études ?",
+"Quels types de clubs et associations sont disponibles pour les étudiants dans les programmes d'études de l'IIT ?",
+"Comment les étudiants peuvent-ils rejoindre des clubs et associations liés à leur programme d'études ?"
+],
+"responses": [
+"L'IIT offre également des options de participation à des clubs et associations étudiantes liés aux programmes d'études. Ces clubs permettent aux étudiants de se connecter avec d'autres étudiants partageant les mêmes intérêts, de développer des compétences de leadership, d'explorer de nouvelles idées et de participer à des événements et activités liés à leur domaine d'études. Les clubs peuvent également offrir des opportunités de bénévolat, de projets de recherche et de stages en entreprise, on peut citer MICROSOFT TECH CLUB, Club ROBOTIQUE , club GOOGLE , Club python IIT,etc...",
+"À l'IIT, vous trouverez une variété de clubs et associations liés aux programmes d'études, tels que des clubs de programmation, des clubs d'ingénierie, des clubs scientifiques, des clubs entrepreneuriaux, etc.",
+"À l'IIT, une variété de clubs et d'associations sont disponibles, tous liés aux programmes d'études proposés. Les étudiants ont ainsi la possibilité de rejoindre des clubs de programmation, des clubs d'ingénierie, des clubs scientifiques, des clubs entrepreneuriaux, et bien d'autres encore. Ces clubs offrent un environnement dynamique où les étudiants peuvent échanger des idées, collaborer sur des projets et approfondir leurs connaissances dans leur domaine d'études. C'est une excellente occasion pour les étudiants de s'impliquer activement et de tirer le meilleur parti de leur expérience à l'IIT.",
+"L'IIT propose également aux étudiants différentes possibilités de rejoindre des clubs et des associations étudiantes liés à leurs programmes d'études. Ces clubs offrent aux étudiants la possibilité de se connecter avec d'autres étudiants partageant les mêmes intérêts, de renforcer leurs compétences en leadership, d'explorer de nouvelles idées et de participer à des événements et activités en lien avec leur domaine d'études. De plus, ces clubs peuvent offrir des opportunités de bénévolat, de projets de recherche et de stages en entreprise, parmi lesquels on trouve le MICROSOFT TECH CLUB, le Club ROBOTIQUE, le club GOOGLE, le Club python IIT, et bien d'autres.",
+"Pour rejoindre des clubs et associations liés à leur programme d'études, les étudiants peuvent généralement s'inscrire auprès du club ou de l'association de leur choix et participer aux réunions et aux activités organisées par ces groupes."
+]
+},
+{
+"tag": "present ligne",
+"patterns": [
+"Comment sont dispensés les cours (en présentiel, en ligne) ?",
+"Est-ce que les cours sont donnés en présentiel ou en ligne à l'IIT ?",
+"Quelle est la méthode d'enseignement utilisée à l'IIT, en présentiel ou en ligne ?",
+"Y a-t-il des cours en ligne disponibles dans les programmes d'études de l'IIT ?",
+"Quelles sont les options d'enseignement proposées par l'IIT, en présentiel ou en ligne ?"
+],
+"responses": [
+"En général, l'IIT propose des programmes d'études en présentiel, mais il peut y avoir des circonstances où l'enseignement en ligne est possible. Toutefois, la possibilité d'assister aux cours en ligne dépend des plans d'études de chaque enseignant et des politiques de l'IIT.Si vous ne pouvez pas assister aux cours en présentiel pendant la journée, l'IIT offre une option d'alternance en partenariat avec plusieurs entreprises, ce qui vous permet de suivre un programme d'études de cours professionnels en soirée. Cette option peut être utile si vous avez un emploi à temps plein ou d'autres obligations pendant la journée. Cependant, il est important de noter que les programmes d'études de cours professionnels en soirée peuvent avoir des exigences différentes de celles des programmes d'études en présentiel, et peuvent nécessiter une plus grande autonomie et une capacité à travailler de manière indépendante. Il est donc important de bien comprendre les exigences de chaque programme d'études avant de choisir l'option qui vous convient le mieux.",
+"En ce qui concerne les modes d'enseignement, l'IIT privilégie généralement les programmes d'études en présentiel. Cependant, il peut y avoir des situations où des cours en ligne sont disponibles. La possibilité de participer à des cours en ligne dépend des politiques et des plans d'études de chaque enseignant, ainsi que des directives de l'IIT.",
+"Si vous êtes dans l'incapacité d'assister aux cours en personne pendant la journée, l'IIT propose une alternative sous la forme d'un programme en alternance avec des entreprises partenaires. Ce programme vous permet de suivre des cours professionnels en soirée. Cette option peut être particulièrement bénéfique si vous avez un emploi à temps plein ou d'autres engagements pendant la journée. Il est toutefois important de noter que les programmes en alternance peuvent avoir des exigences spécifiques, nécessitant une plus grande autonomie et une capacité à travailler de manière indépendante. Il est donc essentiel de bien comprendre les exigences propres à chaque programme avant de faire votre choix.",
+"Si vous ne pouvez pas assister aux cours en personne pendant la journée, l'IIT vous offre la possibilité de suivre un programme d'études en alternance avec plusieurs entreprises partenaires. Ce programme vous permet de suivre des cours professionnels en soirée. Cette option est idéale si vous avez des engagements à temps plein ou d'autres responsabilités pendant la journée. Cependant, il est important de noter que les programmes d'études en alternance peuvent avoir des exigences différentes de ceux en présentiel, nécessitant une plus grande autonomie et une capacité à travailler de manière autonome. Avant de faire votre choix, veillez à bien comprendre les exigences spécifiques de chaque programme d'études.",
+"L'IIT a généralement une approche privilégiée en faveur des programmes d'études en présentiel. Cependant, dans certaines circonstances, des cours en ligne peuvent être proposés. La décision de proposer des cours en ligne dépend des enseignants et des politiques de l'IIT, qui sont évaluées au cas par cas."
+]  
+},
+{
+"tag": "temps cour ind",
+"patterns": [
+"Combien de temps dure chaque cours à l'IIT ?",
+"Quelle est la durée de chaque cours à l'IIT ?",
+"Est-ce que les cours à l'IIT ont une durée fixe ?",
+"Comment est déterminée la durée des cours à l'IIT ?",
+"Y a-t-il des variations dans la durée des cours selon les programmes d'études à l'IIT ?"
+],
+"responses": [
+"La durée de chaque cours à l'IIT peut varier en fonction de différents facteurs tels que la charge horaire obligatoire, les modules et les spécialités. En général, chaque cours est conçu pour répondre aux exigences de la charge horaire obligatoire, qui peut varier d'un programme d'études à l'autre. Par exemple, les cours de licence peuvent avoir des charges horaires différentes de celles des cours d'ingénierie. De plus, la durée de chaque cours peut varier en fonction des modules ou des thèmes abordés dans le cours. Certains cours peuvent être plus longs en raison de la complexité des sujets traités, tandis que d'autres cours peuvent être plus courts s'ils sont plus simples ou plus spécialisés.En somme, la durée de chaque cours à l'IIT dépend de différents facteurs tels que la charge horaire obligatoire, les modules et les spécialités, et peut donc varier d'un cours à l'autre. Il est important de consulter les informations spécifiques de chaque programme d'études pour connaître la durée et les exigences de chaque cours.Vous pouvez consulté le site web www.iit.tn et se renseigner plus sur le programme d'études de chaque filière.",
+"À l'IIT, la durée de chaque cours peut varier en fonction de divers facteurs, tels que les exigences de la charge horaire obligatoire et les modules spécifiques à chaque programme d'études. Par exemple, les cours de licence peuvent avoir des durées différentes de ceux des cours d'ingénierie. De plus, la durée d'un cours peut être influencée par la complexité des sujets abordés ou par la spécialisation du domaine. Il est donc important de consulter les informations détaillées de chaque programme d'études pour connaître la durée et les spécificités de chaque cours.",
+"L'IIT propose une variété de cours dont la durée peut varier en fonction de plusieurs facteurs. La charge horaire obligatoire, les modules enseignés et les spécialités choisies peuvent influencer la durée de chaque cours. Par conséquent, les cours de licence peuvent différer en durée de ceux des programmes d'ingénierie. Pour obtenir des informations précises sur la durée des cours, il est recommandé de se référer aux détails spécifiques de chaque programme d'études.",
+"Chaque cours dispensé à l'IIT est conçu pour répondre aux exigences spécifiques de la charge horaire obligatoire. Cependant, la durée de chaque cours peut varier en fonction des modules et des spécialités qui y sont abordés. Certains cours peuvent être plus longs en raison de sujets complexes ou d'une plus grande profondeur d'analyse, tandis que d'autres cours peuvent être plus courts s'ils se concentrent sur des sujets spécialisés. Pour connaître la durée exacte de chaque cours, il est recommandé de consulter les informations détaillées fournies par l'IIT pour chaque programme d'études.",
+"À l'IIT, la durée de chaque cours est influencée par plusieurs facteurs, tels que la charge horaire obligatoire, les modules d'enseignement et les spécialités propres à chaque programme d'études. Par conséquent, la durée des cours peut varier d'un programme à l'autre. Certains cours peuvent être plus longs en raison de sujets approfondis et de modules supplémentaires, tandis que d'autres cours plus spécialisés peuvent être plus courts. Pour obtenir des informations précises sur la durée de chaque cours, il est recommandé de se référer aux informations fournies par l'IIT pour chaque programme d'études."   
+ ]
+},
+{
+"tag": "calendrier univ",
+"patterns": [
+"Quelles sont les dates de début et de fin du semestre à l'IIT ?",
+"Comment puis-je obtenir le calendrier universitaire de l'IIT ?",
+"Y a-t-il des périodes de vacances pendant le semestre à l'IIT ?",
+"Est-ce que le calendrier universitaire de l'IIT est le même chaque année ?",
+"Quelles sont les dates des examens à l'IIT ?"
+],
+"responses": [
+"Le calendrier universitaire et le planning des cours à l'Institut International de Technologies de Sfax sont organisés par semestre. Chaque semestre dure environ 14 et 15 semaines et est divisé en deux parties : la première partie est dédiée aux cours magistraux et aux travaux dirigés, tandis que la deuxième partie est réservée aux examens et aux évaluations.Le calendrier universitaire est également publié avant le début de chaque année universitaire et comprend les dates importantes telles que le début et la fin des semestres, les périodes de vacances, les dates d'inscription,le dates des examens , la période dela session de controle, les periodes de révisions...", 
+"À l'Institut International de Technologies de Sfax, les cours et le calendrier universitaire sont organisés en semestres, avec une durée moyenne de 14 à 15 semaines. Chaque semestre est divisé en deux parties distinctes : la première partie se concentre sur les cours magistraux et les travaux dirigés, tandis que la deuxième partie est consacrée aux examens et aux évaluations. Le calendrier universitaire est préalablement publié, offrant aux étudiants des informations clés telles que les dates de début et de fin des semestres, les périodes de vacances, les dates d'inscription, les examens, la session de contrôle et les périodes de révisions.",
+"L'Institut International de Technologies de Sfax adopte un système de calendrier universitaire basé sur des semestres. Chaque semestre dure généralement entre 14 et 15 semaines, offrant aux étudiants une structure temporelle claire pour leurs études. La première moitié du semestre se concentre sur les cours magistraux et les travaux dirigés, permettant aux étudiants d'acquérir des connaissances théoriques et de participer activement à des discussions en classe. La deuxième moitié du semestre est réservée aux examens et aux évaluations, offrant aux étudiants l'occasion de démontrer leur compréhension et leur maîtrise des sujets étudiés.",
+"L'organisation du calendrier universitaire à l'Institut International de Technologies de Sfax repose sur un système de semestres bien établi. Chaque semestre s'étend sur une période d'environ 14 à 15 semaines et est divisé en deux parties distinctes. Dans la première partie, les étudiants assistent aux cours magistraux et aux travaux dirigés, où ils sont exposés aux concepts clés de leur domaine d'études. La deuxième partie du semestre est consacrée aux examens et aux évaluations, permettant aux étudiants de démontrer leurs connaissances acquises et leur aptitude à appliquer ces connaissances dans des contextes pratiques. Le calendrier universitaire est rendu disponible avant le début de chaque année académique, fournissant aux étudiants des informations essentielles telles que les dates importantes, les périodes de vacances et les échéances pour les inscriptions et les révisions.",
+"Le calendrier universitaire de l'IIT peut être sujet à de légères modifications chaque année. Il est important de vérifier les mises à jour régulières pour vous tenir informé.",
+"Les dates des examens à l'IIT sont fixées selon le calendrier universitaire. Vous pouvez consulter le calendrier pour connaître les périodes d'examens prévues."
+]
+  },
+
+{"tag":"question langue",
+  "patterns":[
+    "Les cours sont-ils en français ou en anglais ?",
+"Quelle est la langue d'enseignement utilisée pour les cours à l'Institut International de Technologies de Sfax ?",
+"Est-ce que les cours à l'IIT sont principalement donnés en français ou en anglais ?",
+"Est-ce que la langue d'instruction des cours varie en fonction des filières et des spécialités à l'IIT ?",
+"Y a-t-il une préférence pour le français ou l'anglais dans l'enseignement des cours à l'Institut International de Technologies de Sfax ?"
+
+  ],
+  "responses":[
+    "La langue d'enseignement peut varier selon la filière, le cycle et même la spécialité. En règle générale, la plupart des cours sont dispensés en français à l'Institut International de Technologies de Sfax, car c'est la langue officielle en Tunisie. Cependant, certains cours techniques et scientifiques peuvent être dispensés en anglais, et il est recommandé de consulter le programme d'études détaillé pour connaître la langue d'enseignement spécifique de chaque cours. En outre, il est possible que certains cours soient enseignés dans d'autres langues, en fonction des enseignants et de la demande des étudiants.", 
+"L'Institut International de Technologies de Sfax propose principalement des cours en français, étant donné que c'est la langue officielle en Tunisie. Toutefois, il existe des cours techniques et scientifiques qui sont dispensés en anglais. Il est conseillé de consulter le programme d'études spécifique à chaque filière pour connaître la langue d'enseignement des cours qui vous intéressent.",
+"La langue d'instruction des cours à l'IIT peut varier en fonction des domaines d'études. Généralement, la plupart des cours sont enseignés en français, mais il existe également des cours en anglais, en particulier dans les domaines techniques et scientifiques. Pour connaître la langue d'enseignement de chaque cours, il est recommandé de consulter les détails du programme d'études correspondant.",
+"Il y a une préférence pour le français comme langue d'enseignement à l'Institut International de Technologies de Sfax, étant donné que c'est la langue officielle en Tunisie. Cependant, certains cours techniques et scientifiques peuvent être enseignés en anglais. Il est important de vérifier le programme d'études pour connaître la langue d'enseignement spécifique de chaque cours.",
+"La détermination de la langue d'enseignement des cours à l'IIT est basée sur plusieurs facteurs tels que la filière, le cycle et la spécialité. En règle générale, la langue principale d'enseignement est le français, conformément à la langue officielle en Tunisie. Cependant, certains cours techniques et scientifiques peuvent être dispensés en anglais pour faciliter l'apprentissage et la compréhension des concepts spécifiques. Il est recommandé de consulter le programme d'études pour connaître la langue d'enseignement spécifique de chaque cours."
+
+  ]
+},
+{"tag":"precision infor",
+  "patterns":[
+    "Comment peut-on obtenir plus d'informations sur chaque cours et sur le programme de l'Institut International de Technologies de Sfax en général ?",
+"Où puis-je trouver des informations supplémentaires sur les cours et le programme de l'Institut International de Technologies de Sfax ?",
+"Existe-t-il des ressources pour en savoir plus sur chaque cours et sur le programme global de l'Institut International de Technologies de Sfax ?",
+"Comment puis-je accéder à des détails sur les cours et obtenir des informations complètes sur le programme de l'Institut International de Technologies de Sfax ?",
+"Y a-t-il une source fiable pour consulter les informations détaillées sur les cours et le programme de l'Institut International de Technologies de Sfax ?"
+
+  ],
+  "responses":[
+    "Pour obtenir plus d'informations sur chaque cours et sur le programme de l'Institut International de Technologies de Sfax en général, vous pouvez consulter le site web de l'institut à l'adresse iit.tn. Sur le site web, vous trouverez des informations détaillées sur les programmes d'études, les cours, les enseignants, les projets, les stages, les clubs et associations étudiantes, ainsi que sur les différents services offerts par l'institut. Vous pouvez également visiter le campus de l'IIT à Sfax pour parler avec un responsable ou pour rencontrer des enseignants et des étudiants. Ils seront en mesure de vous fournir des informations supplémentaires sur les programmes d'études et de répondre à toutes vos questions.",
+"Si vous souhaitez en savoir plus sur chaque cours et sur le programme global de l'Institut International de Technologies de Sfax, je vous recommande de consulter le site web de l'institut à l'adresse iit.tn. Vous y trouverez des informations détaillées sur les différents aspects du programme, ainsi que sur les ressources disponibles pour les étudiants.",
+"L'accès aux informations sur les cours et le programme de l'Institut International de Technologies de Sfax est facilement disponible sur leur site web officiel à l'adresse iit.tn. Vous y trouverez une mine d'informations sur les programmes d'études, les cours proposés, les enseignants, les projets, les stages, les clubs et associations étudiantes, ainsi que sur les divers services disponibles.",
+"Pour obtenir des informations complètes sur les cours et le programme de l'Institut International de Technologies de Sfax, je vous suggère de visiter le site web de l'institut à l'adresse iit.tn. Le site web offre une vue d'ensemble détaillée des programmes d'études, des descriptions de cours, des profils des enseignants, des projets en cours, des opportunités de stages, des activités des clubs et associations étudiantes, ainsi que des informations sur les services fournis par l'institut.",
+"Si vous souhaitez en savoir plus sur chaque cours et sur le programme de l'Institut International de Technologies de Sfax, je vous recommande de consulter le site web officiel de l'institut à l'adresse iit.tn. Le site web contient des informations approfondies sur les programmes d'études, les descriptions des cours, les compétences enseignées, les enseignants, les projets, les stages, les clubs et associations étudiantes, ainsi que sur les ressources disponibles pour les étudiants."
+  ]
+},
+{
+  "tag": "stage ex",
+  "patterns": [
+    "Quelle est la durée moyenne de stage ou d'expérience professionnelle associée à ce programme d'études ?",
+    "Combien de temps dure généralement le stage ou l'expérience professionnelle dans ce programme d'études ?",
+    "Y a-t-il une période spécifique dédiée au stage ou à l'expérience professionnelle dans ce programme ?",
+    "Est-ce obligatoire d'effectuer un stage ou une expérience professionnelle dans ce programme d'études ?",
+    "Quelles sont les opportunités de stage ou d'expérience professionnelle offertes par ce programme ?"
+  ],
+  "responses": [
+    "La durée moyenne de stage ou d'expérience professionnelle associée à ce programme d'études peut varier en fonction de la spécialité et du cycle de l'étudiant. En général, les programmes d'études offrent des stages d'une durée de quelques semaines à quelques mois, avec la possibilité d'effectuer plusieurs stages tout au long du cursus. Dans certains cas, les étudiants peuvent également avoir la possibilité d'effectuer une expérience professionnelle en parallèle de leurs études, en suivant un cursus en alternance. Il est conseillé de consulter le programme d'études détaillé pour se renseigner sur les opportunités de stage et d'expérience professionnelle associées à chaque spécialité.",
+    "La durée du stage ou de l'expérience professionnelle dans ce programme d'études peut varier. Certains étudiants peuvent effectuer un stage court de quelques semaines, tandis que d'autres peuvent avoir la possibilité de réaliser des stages plus longs s'étalant sur plusieurs mois. Les stages sont souvent intégrés dans le programme pour offrir aux étudiants une expérience pratique en lien avec leur domaine d'études.",
+    "Dans ce programme d'études, il existe une période dédiée au stage ou à l'expérience professionnelle. Les étudiants sont encouragés à effectuer un stage d'une durée déterminée afin d'acquérir une expérience pratique dans leur domaine d'études. Cette période peut varier en fonction du programme et des exigences spécifiques de chaque spécialité.",
+    "La réalisation d'un stage ou d'une expérience professionnelle est généralement obligatoire dans ce programme d'études. Cela fait partie intégrante du cursus et permet aux étudiants d'appliquer leurs connaissances théoriques dans un environnement professionnel. Les détails sur la durée et les modalités du stage seront précisés dans le programme d'études.",
+    "Ce programme d'études offre de nombreuses opportunités de stage et d'expérience professionnelle. Les étudiants ont la possibilité de collaborer avec des entreprises partenaires, de participer à des projets concrets et d'acquérir des compétences pratiques. La durée des stages peut varier en fonction des spécialités, mais en général, les étudiants ont la possibilité d'effectuer plusieurs stages tout au long de leur cursus."
+  ]
+},
+{
+  "tag": "études supérieures",
+  "patterns": [
+    "Y a-t-il des possibilités de poursuivre des études supérieures après avoir terminé ce programme d'études ?",
+    "Est-ce que ce programme d'études permet d'accéder à des études supérieures ?",
+    "Quelles sont les options disponibles pour les études supérieures après avoir obtenu ce diplôme ?",
+    "Quels sont les programmes de troisième cycle offerts par cet institut ?",
+    "Quelles sont les opportunités de formation continue après avoir terminé ce programme d'études ?"
+  ],
+  "responses": [
+    "Oui, il existe des possibilités de poursuivre des études supérieures après avoir terminé le programme d'études de l'Institut International de Technologies de Sfax. Les étudiants peuvent poursuivre des études de maîtrise ou de doctorat dans leur domaine de spécialisation ou dans une discipline connexe. L'IIT propose également des programmes de formation continue pour les professionnels qui souhaitent acquérir de nouvelles compétences ou se spécialiser dans un domaine spécifique. Les étudiants peuvent obtenir plus d'informations sur les programmes de troisième cycle proposés par l'IIT auprès du bureau des études supérieures de l'institut ou en consultant le site web de l'IIT.",
+    "Après avoir terminé ce programme d'études, les étudiants ont la possibilité de poursuivre des études supérieures. L'Institut International de Technologies de Sfax propose des programmes de maîtrise et de doctorat dans différents domaines. Les étudiants peuvent choisir de se spécialiser davantage dans leur domaine de compétence ou d'explorer d'autres domaines connexes. De plus, l'IIT offre également des programmes de formation continue pour les professionnels qui souhaitent approfondir leurs connaissances et développer leurs compétences.",
+    "Ce programme d'études ouvre la voie à des études supérieures. Les étudiants peuvent choisir de poursuivre une maîtrise ou un doctorat dans leur domaine d'études ou dans une discipline connexe. L'Institut International de Technologies de Sfax propose un large éventail de programmes de troisième cycle dans différents domaines. Les étudiants intéressés peuvent se renseigner auprès du bureau des études supérieures de l'institut pour obtenir plus d'informations sur les options disponibles.",
+    "Après avoir obtenu ce diplôme, les étudiants ont la possibilité de continuer leurs études au niveau supérieur. L'Institut International de Technologies de Sfax propose des programmes de maîtrise et de doctorat dans divers domaines. Les étudiants peuvent choisir de se spécialiser davantage dans leur domaine d'études ou d'explorer de nouvelles perspectives. De plus, l'IIT offre des programmes de formation continue pour permettre aux professionnels de développer leurs compétences et d'approfondir leurs connaissances dans des domaines spécifiques.",
+    "L'obtention de ce diplôme ouvre la porte à des opportunités de poursuite d'études supérieures. Les étudiants ayant terminé ce programme d'études peuvent choisir de s'inscrire à des programmes de maîtrise ou de doctorat dans leur domaine de spécialisation. L'Institut International de Technologies de Sfax propose un large éventail de programmes de troisième cycle dans différents domaines, ce qui permet aux étudiants de continuer à se former et à se spécialiser dans leur domaine d'intérêt."
+  ]
+},
+{
+  "tag": "crédits",
+  "patterns": [
+    "Comment les crédits ECTS sont-ils utilisés pour déterminer la note finale ou la mention obtenue à la fin du programme d'études ?",
+    "Quel est le rôle des crédits ECTS dans l'évaluation du programme d'études ?",
+    "Comment les crédits ECTS sont-ils attribués aux cours dans ce programme ?",
+    "Quelle est la signification des crédits ECTS pour la notation finale ?",
+    "Comment les notes des cours sont-elles pondérées en fonction des crédits ECTS ?"
+  ],
+  "responses": [
+    "Les crédits ECTS (European Credit Transfer and Accumulation System) sont utilisés pour quantifier le travail de l'étudiant dans le programme d'études. Chaque cours se voit attribuer un certain nombre de crédits ECTS en fonction de sa charge de travail estimée. La note finale ou la mention obtenue à la fin du programme d'études est déterminée par l'accumulation des crédits ECTS et la moyenne pondérée des notes obtenues pour chaque cours. Par exemple, si un cours vaut 6 crédits ECTS et que l'étudiant a obtenu une note de 16/20, alors il obtiendra 6 x 16/20 = 4,8 crédits ECTS pour ce cours. La somme de tous les crédits ECTS obtenus pour tous les cours donnera le nombre total de crédits ECTS obtenus pour le programme d'études, ce qui permettra de déterminer la mention obtenue en fonction des critères établis par l'établissement.",
+    "Dans ce programme d'études, les crédits ECTS sont utilisés comme une mesure du travail accompli par l'étudiant. Chaque cours est attribué un certain nombre de crédits ECTS en fonction de la charge de travail attendue. La note finale ou la mention obtenue à la fin du programme est calculée en tenant compte de l'accumulation des crédits ECTS et de la moyenne pondérée des notes obtenues pour chaque cours. Les crédits ECTS offrent une façon standardisée d'évaluer la quantité de travail et de déterminer la valeur relative des cours dans le programme d'études.",
+    "Les crédits ECTS jouent un rôle important dans l'évaluation du programme d'études. Chaque cours est attribué un certain nombre de crédits ECTS qui reflète la charge de travail estimée pour ce cours. Lorsque l'étudiant obtient une note pour un cours, cette note est pondérée en fonction des crédits ECTS du cours. Ainsi, les cours qui ont plus de crédits ECTS auront un impact plus important sur la note finale. La note finale ou la mention obtenue à la fin du programme d'études est calculée en prenant en compte la somme des crédits ECTS pondérés par les notes obtenues dans chaque cours.",
+    "Dans ce programme d'études, les crédits ECTS sont utilisés pour évaluer la charge de travail de chaque cours. Chaque cours se voit attribuer un certain nombre de crédits ECTS en fonction de la quantité de travail attendue. Lorsque l'étudiant obtient une note pour un cours, cette note est pondérée en fonction des crédits ECTS du cours. Ainsi, les cours avec plus de crédits ECTS ont un impact plus important sur la note finale. La note finale ou la mention obtenue à la fin du programme est déterminée en calculant la moyenne pondérée des notes obtenues pour chaque cours, en tenant compte des crédits ECTS associés à chaque cours.",
+    "Les crédits ECTS sont utilisés dans ce programme d'études pour quantifier la charge de travail des cours. Chaque cours est attribué un certain nombre de crédits ECTS en fonction de la charge de travail estimée. Lorsque l'étudiant obtient une note pour un cours, cette note est pondérée en fonction des crédits ECTS du cours. Ainsi, les cours avec plus de crédits ECTS ont un impact plus important sur la note finale. La note finale ou la mention obtenue à la fin du programme d'études est calculée en prenant en compte la moyenne pondérée des notes obtenues pour chaque cours, en fonction des crédits ECTS associés à chaque cours."
+  ]
+},
+{
+  "tag": "Programme Master Industrie",
+  "patterns": [
+    "Quels sont les cours proposés dans le programme de Master Industrie ?",
+    "Qu'est-ce que je vais étudier dans le Master Industrie ?",
+    "Quelles sont les matières enseignées dans le programme de Master Industrie ?",
+    "Pouvez-vous me donner un aperçu des cours du programme de Master Industrie ?",
+    "Quels sont les domaines abordés dans le programme de Master Industrie ?"
+  ],
+  "responses": [
+    "Le programme de Master Industrie comprend une variété de cours spécialisés pour vous préparer aux défis de l'industrie. Vous étudierez des sujets tels que la gestion de la production, la planification des opérations, l'automatisation industrielle, la logistique, la gestion de la chaîne d'approvisionnement, la qualité et la gestion de projet. De plus, vous aurez l'occasion d'explorer des domaines émergents tels que la transformation numérique des entreprises industrielles et l'optimisation des processus. Ces cours vous permettront d'acquérir des compétences pratiques et théoriques essentielles pour réussir dans le domaine de l'industrie.",
+    "Dans le programme de Master Industrie, vous étudierez des cours spécialisés qui couvrent divers aspects de l'industrie. Cela comprend la gestion de la production, l'automatisation industrielle, la logistique, l'optimisation des processus, la gestion de la chaîne d'approvisionnement et la transformation numérique des entreprises industrielles. Vous serez également exposé à des sujets tels que la gestion de la qualité, la conception de produits et la gestion de projet. Ces cours vous fourniront les connaissances et les compétences nécessaires pour relever les défis de l'industrie et réussir dans votre carrière professionnelle.",
+    "Le programme de Master Industrie propose un ensemble de cours spécialisés axés sur les besoins de l'industrie. Vous étudierez des sujets tels que la gestion de la production, l'automatisation industrielle, la logistique, l'optimisation des processus et la transformation numérique des entreprises industrielles. Ces cours vous permettront de développer des compétences essentielles dans la gestion des opérations industrielles, la planification des ressources, la gestion de la chaîne d'approvisionnement et bien plus encore. Vous serez également exposé à des projets pratiques qui vous permettront d'appliquer vos connaissances dans des situations réelles.",
+    "Dans le programme de Master Industrie, vous suivrez des cours qui couvrent un large éventail de domaines liés à l'industrie. Vous étudierez des sujets tels que la gestion de la production, l'automatisation industrielle, la logistique, l'optimisation des processus et la transformation numérique des entreprises industrielles. Vous aurez l'occasion d'approfondir vos connaissances dans des domaines spécifiques tels que la gestion de la qualité, la gestion de projet et la conception de produits. Ces cours vous prépareront à faire face aux défis de l'industrie et à développer des compétences recherchées sur le marché du travail.",
+    "Le programme de Master Industrie propose une variété de cours qui vous permettront de développer une solide base de connaissances dans le domaine de l'industrie. Vous étudierez des sujets tels que la gestion de la production, l'automatisation industrielle, la logistique, l'optimisation des processus et la transformation numérique des entreprises industrielles. Vous serez également exposé à des cours axés sur la gestion de la chaîne d'approvisionnement, la gestion de la qualité, la gestion de projet et la conception de produits. Ces cours vous donneront une compréhension approfondie des différents aspects de l'industrie et vous aideront à développer les compétences nécessaires pour réussir dans ce domaine en évolution rapide."
+  ]
+},
+{
+  "tag": "Expérience professionnelle Master",
+  "patterns": [
+    "Y a-t-il des stages inclus dans le programme de Master ?",
+    "Est-ce que le programme de Master propose des opportunités de stage en entreprise ?",
+    "Puis-je effectuer un stage pendant le Master ?",
+    "Quelles sont les options d'expérience professionnelle disponibles pendant le Master ?",
+    "Existe-t-il des opportunités de travail pratique pendant le Master ?"
+
+  ],
+  "responses": [
+    "Oui, notre programme de Master offre des opportunités d'acquérir une expérience professionnelle grâce à des stages en entreprise. Vous aurez l'opportunité de travailler sur des projets réels et d'appliquer vos connaissances théoriques dans un environnement professionnel.",
+    "Les stages en entreprise font partie intégrante du programme de Master. Ils vous permettent d'acquérir une expérience professionnelle précieuse et de mettre en pratique ce que vous avez appris lors de vos cours.",
+    "Absolument ! Le programme de Master comprend des opportunités de stage en entreprise, ce qui vous permettra d'acquérir une expérience concrète dans votre domaine d'études. Ces stages sont une excellente occasion de mettre en pratique vos compétences et de développer votre réseau professionnel.",
+    "Oui, vous avez la possibilité d'effectuer un stage pendant le Master. Cela vous permettra de mettre en pratique vos connaissances académiques dans un environnement professionnel, d'acquérir de l'expérience pratique et d'établir des contacts utiles dans votre domaine d'études.",
+    "Dans le cadre du Master, vous pouvez acquérir de l'expérience professionnelle en effectuant un stage en entreprise. Les stages vous offrent la possibilité de travailler dans un contexte réel, d'appliquer vos compétences et de vous familiariser avec le monde professionnel."
+  ]
+},
+{
+  "tag": "Débouchés Master",
+  "patterns": [
+    "Quels sont les débouchés après avoir obtenu un Master dans votre Institut ?",
+    "Quelles sont les opportunités professionnelles avec un diplôme de Master ?",
+    "Quelles sont les perspectives de carrière après avoir terminé le Master ?",
+    "Quels types d'emplois sont disponibles pour les diplômés du Master ?",
+    "Dans quels domaines les étudiants ayant obtenu un Master peuvent-ils trouver un emploi ?"
+  ],
+  "responses": [
+    "Après avoir obtenu un Master dans notre Institut, vous aurez de nombreuses opportunités professionnelles dans des domaines tels que l'ingénierie industrielle, la gestion de la production, l'automatisation industrielle, la logistique, la consultation en entreprise, etc. Vous pourrez travailler dans des entreprises locales et internationales, des cabinets de conseil ou poursuivre des études supérieures.",
+    "Un diplôme de Master ouvre de nombreuses perspectives de carrière. Vous pourrez envisager des postes tels que ingénieur industriel, chef de projet, responsable de la logistique, consultant en entreprise, analyste des opérations, responsable de la qualité, etc. Les options sont diverses et dépendent de votre domaine de spécialisation et de vos intérêts.",
+    "Les opportunités professionnelles pour les diplômés d'un Master sont vastes. Vous pourrez vous orienter vers des postes de gestion, de recherche, de conseil, de développement de produits ou de services, et bien plus encore. Vous serez qualifié pour travailler dans différents secteurs, tels que l'industrie manufacturière, la technologie, la logistique, l'énergie et les services.",
+    "Avec un diplôme de Master, vous aurez accès à des postes à responsabilités et à des opportunités de carrière avancées. Vous pourrez occuper des postes de direction, de gestion de projet ou de recherche et développement. Les possibilités d'emploi s'étendent à un large éventail d'industries et de secteurs, offrant ainsi une grande flexibilité dans votre choix de carrière.",
+    "Les diplômés d'un Master ont la possibilité de poursuivre des carrières diverses dans les domaines de l'industrie, de la gestion, de la recherche et du développement. Vous pourrez trouver des emplois dans des entreprises de fabrication, des sociétés de conseil, des organismes gouvernementaux, des institutions académiques, des start-ups et bien d'autres. Votre expertise et vos compétences en matière d'ingénierie et de gestion vous ouvriront de nombreuses portes sur le marché du travail."
+  ]
+},
+{
+  "tag": "Admission Master",
+  "patterns": [
+    "Quels sont les critères d'admission pour le programme de Master ?",
+    "Quelles sont les conditions requises pour être admis en Master ?",
+    "Qu'est-ce qui est pris en compte lors du processus d'admission en Master ?",
+    "Quels documents sont nécessaires pour postuler au programme de Master ?",
+    "Y a-t-il des prérequis spécifiques pour être accepté en Master ?"
+  ],
+  "responses": [
+    "Les critères d'admission pour le programme de Master incluent généralement la possession d'un diplôme de Bachelor ou équivalent dans un domaine pertinent, la soumission d'un dossier de candidature complet, qui peut inclure des relevés de notes, des lettres de recommandation et une lettre de motivation, ainsi que parfois la réussite d'un entretien d'admission.",
+    "Pour être admis en Master, vous devez normalement avoir obtenu un diplôme de Bachelor ou équivalent dans une discipline liée au programme de Master. En plus de cela, vous devrez soumettre une demande d'admission comprenant des documents tels que des relevés de notes, des lettres de recommandation et une lettre de motivation. Certains programmes de Master peuvent également exiger la réussite d'un entretien d'admission.",
+    "Les conditions requises pour être admis en Master comprennent généralement l'obtention d'un diplôme de Bachelor dans un domaine connexe au programme de Master. Vous devrez également soumettre une demande d'admission comprenant des pièces justificatives telles que des relevés de notes, des lettres de recommandation et une lettre de motivation. Certains programmes peuvent également tenir compte de l'expérience professionnelle pertinente ou de résultats de tests standardisés.",
+    "L'admission en Master est généralement basée sur plusieurs critères, tels que l'obtention d'un diplôme de Bachelor dans un domaine approprié, les résultats académiques, les lettres de recommandation, la lettre de motivation et parfois l'expérience professionnelle. Les candidats sont évalués de manière holistique pour déterminer leur aptitude et leur adéquation au programme de Master.",
+    "Pour être accepté en Master, vous devez avoir obtenu un diplôme de Bachelor dans un domaine connexe ou équivalent. Vous devrez soumettre une demande d'admission complète comprenant des relevés de notes, des lettres de recommandation et une lettre de motivation. Les critères spécifiques d'admission peuvent varier selon le programme de Master et l'université, il est donc recommandé de consulter les exigences d'admission spécifiques au programme auquel vous postulez."
+  ]
+},
+{
+  "tag": "Diplôme équivalent Master",
+  "patterns": [
+    "Quel est l'équivalent du diplôme de Master dans votre système d'enseignement ?",
+    "Quel est le niveau de qualification du diplôme de Master ?",
+    "Comment le diplôme de Master est-il classé dans le système d'enseignement ?",
+    "Quelle est la position du diplôme de Master par rapport aux autres diplômes ?",
+    "Quel est le niveau d'études atteint avec un diplôme de Master ?"
+  ],
+  "responses": [
+    "Dans notre système d'enseignement, le diplôme de Master est considéré comme un diplôme de troisième cycle, au-dessus du diplôme de Bachelor. Il représente un niveau élevé de qualification académique et professionnelle dans le domaine de l'ingénierie industrielle.",
+    "Le diplôme de Master est classé comme un diplôme de troisième cycle dans notre système d'enseignement. Il est attribué aux étudiants qui ont terminé avec succès un programme d'études supérieures après avoir obtenu un diplôme de Bachelor. Il représente un niveau avancé de qualification et offre des connaissances approfondies dans le domaine spécifique d'études.",
+    "Le diplôme de Master est considéré comme un diplôme de troisième cycle dans notre système d'enseignement. Il se situe au-dessus du diplôme de Bachelor et représente un niveau élevé de qualification. Il dénote une expertise approfondie dans le domaine d'études choisi et prépare les étudiants à des rôles professionnels avancés, à la recherche ou à la poursuite d'études supérieures.",
+    "Le diplôme de Master est classé comme un diplôme de troisième cycle, représentant un niveau avancé de qualification, dans notre système d'enseignement. Il est attribué aux étudiants qui ont terminé avec succès un programme d'études supérieures après avoir obtenu un diplôme de Bachelor. Le diplôme de Master est reconnu pour fournir une expertise spécialisée dans un domaine spécifique et ouvre des opportunités professionnelles et académiques avancées.",
+    "Avec un diplôme de Master, vous atteignez un niveau d'études avancé dans notre système d'enseignement. Il est considéré comme un diplôme de troisième cycle et est décerné aux étudiants qui ont terminé avec succès un programme d'études supérieures après avoir obtenu un diplôme de Bachelor. Le diplôme de Master est un jalon important dans le parcours éducatif et vous prépare à des rôles professionnels spécialisés ou à la poursuite de recherches avancées."
+  ]
+},
+{
+  "tag": "Emplois sur le campus",
+  "patterns": [
+    "Quels sont les emplois disponibles sur le campus ?",
+    "Comment puis-je postuler pour un emploi sur le campus ?",
+    "Y a-t-il des opportunités d'emploi sur le campus ?",
+    "Est-ce qu'il y a des postes vacants sur le campus ?",
+    "Quels types d'emplois sont proposés aux étudiants sur le campus ?"
+  ],
+  "responses": [
+    "Nous avons divers emplois disponibles sur le campus, tels que des postes d'assistant de recherche, des emplois à la bibliothèque, dans les services administratifs ou dans d'autres départements. Ces emplois peuvent offrir aux étudiants l'opportunité de gagner de l'expérience professionnelle tout en étudiant. Pour postuler à un emploi sur le campus, vous pouvez consulter notre site web ou contacter le service des ressources humaines pour obtenir plus d'informations sur les postes vacants et les modalités de candidature.",
+    "Sur le campus, nous proposons différents emplois aux étudiants. Il peut s'agir de postes d'assistant de recherche, de tutorat, d'emploi à la bibliothèque, dans les services administratifs ou dans d'autres services de l'université. Pour connaître les emplois disponibles et postuler, vous pouvez visiter notre site web dédié aux emplois sur le campus ou contacter le service des ressources humaines de l'université.",
+    "Il existe des opportunités d'emploi sur le campus pour les étudiants. Vous pouvez trouver des postes tels que des assistants de recherche, des emplois dans les bibliothèques, les laboratoires, les services administratifs, etc. Les informations sur les emplois disponibles et les modalités de candidature peuvent être obtenues en consultant le site web de l'université ou en vous renseignant auprès du service des ressources humaines sur le campus.",
+    "Si vous recherchez un emploi sur le campus, il y a plusieurs options possibles. Vous pouvez envisager de postuler à des postes tels que des assistants de recherche, des emplois à la bibliothèque, des emplois administratifs ou d'autres postes disponibles sur le campus. Pour obtenir des informations précises sur les emplois disponibles et les procédures de candidature, veuillez consulter le site web de l'université ou contacter le service des ressources humaines.",
+    "Les étudiants ont la possibilité de postuler à divers emplois sur le campus. Il peut s'agir de postes d'assistant de recherche, d'emploi à la bibliothèque, de travaux administratifs ou de tout autre emploi disponible au sein de l'université. Pour connaître les emplois actuellement vacants et les modalités de candidature, vous pouvez consulter le site web de l'université ou contacter le service des ressources humaines sur le campus."
+  ]
+},
+{
+  "tag": "Programmes de bourses",
+  "patterns": [
+    "Quels sont les programmes de bourses offerts par l'université ?",
+    "Comment puis-je postuler pour une bourse d'études ?",
+    "Y a-t-il des opportunités de bourses disponibles à l'université ?",
+    "Est-ce que l'université propose des programmes de bourses aux étudiants ?",
+    "Quelles sont les options de financement disponibles, comme les bourses d'études ?"
+  ],
+  "responses": [
+    "Nous proposons différents programmes de bourses pour soutenir les étudiants méritants dans leur parcours d'études. Les détails spécifiques des programmes de bourses, y compris les critères d'éligibilité, les montants et les délais de candidature, sont disponibles sur notre site web. Vous pouvez consulter les informations relatives aux bourses et suivre les instructions pour soumettre votre candidature en ligne.",
+    "À l'université, nous offrons plusieurs programmes de bourses pour soutenir les étudiants dans leur parcours académique. Les programmes de bourses varient en termes de critères d'éligibilité, de montants et de domaines d'études. Pour postuler à une bourse d'études, vous devrez consulter notre site web où vous trouverez les informations détaillées sur les programmes de bourses offerts et les instructions pour soumettre votre candidature.",
+    "L'université propose plusieurs programmes de bourses pour aider les étudiants dans leurs études. Ces bourses sont offertes aux étudiants méritants et sont basées sur des critères spécifiques tels que les résultats académiques, le besoin financier ou la contribution à la communauté. Pour connaître les programmes de bourses disponibles et les procédures de candidature, veuillez consulter notre site web ou contacter le bureau des bourses de l'université.",
+    "Nous sommes fiers de proposer différents programmes de bourses pour soutenir financièrement les étudiants méritants. Les bourses offertes varient en fonction des critères d'éligibilité tels que les résultats académiques, les réalisations personnelles ou les besoins financiers. Pour en savoir plus sur les programmes de bourses disponibles et les procédures de candidature, nous vous recommandons de consulter notre site web où vous trouverez toutes les informations nécessaires.",
+    "Si vous recherchez des options de financement, l'université propose divers programmes de bourses d'études. Ces bourses sont destinées à soutenir les étudiants méritants dans leur parcours académique. Pour connaître les options de bourses disponibles et les modalités de candidature, veuillez consulter notre site web où vous trouverez des informations détaillées sur les programmes de bourses offerts par l'université."
+  ]
+},
+{
+  "tag": "Logement étudiant",
+  "patterns": [
+    "Quelles sont les options de logement disponibles pour les étudiants ?",
+    "Comment puis-je demander un logement étudiant ?",
+    "Est-ce que l'université propose un logement étudiant sur le campus ?",
+    "Y a-t-il des résidences universitaires pour les étudiants ?",
+    "Où puis-je trouver des informations sur le logement étudiant à l'université ?"
+  ],
+  "responses": [
+    "Nous offrons différentes options de logement étudiant pour répondre aux besoins des étudiants. Cela comprend des résidences universitaires sur le campus, des logements en colocation ou en appartement, ainsi que des partenariats avec des fournisseurs de logements externes. Pour demander un logement étudiant, veuillez consulter notre site web où vous trouverez des informations détaillées sur les options de logement disponibles et les procédures de demande.",
+    "L'université propose un logement étudiant sur le campus, y compris des résidences universitaires. Si vous souhaitez demander un logement étudiant, vous devrez remplir une demande de logement sur notre site web. Les informations sur les options de logement, les tarifs et les procédures de demande seront fournies sur notre site web.",
+    "Nous comprenons l'importance d'un logement adapté pour les étudiants. L'université propose des résidences universitaires sur le campus ainsi que d'autres options de logement étudiant. Pour demander un logement étudiant, vous devrez suivre les procédures de demande spécifiques. Vous pouvez obtenir des informations détaillées sur les options de logement et les procédures de demande en consultant notre site web ou en contactant le bureau du logement étudiant de l'université.",
+    "Pour répondre aux besoins en logement des étudiants, l'université propose différentes options, y compris des résidences universitaires sur le campus. Si vous êtes intéressé par un logement étudiant, vous devrez suivre les procédures de demande spécifiques. Les informations sur les options de logement, les critères d'éligibilité et les délais de demande seront disponibles sur notre site web.",
+    "Si vous recherchez un logement étudiant, l'université offre différentes options pour répondre à vos besoins. Cela comprend des résidences universitaires sur le campus ainsi que d'autres solutions de logement. Pour obtenir des informations détaillées sur les options de logement disponibles pour les étudiants et les procédures de demande, nous vous invitons à consulter notre site web où vous trouverez les informations nécessaires."
+  ]
+},
+{
+  "tag": "Activités étudiantes",
+  "patterns": [
+    "Quelles sont les activités étudiantes proposées par l'université ?",
+    "Comment puis-je m'impliquer dans les activités étudiantes ?",
+    "Quels types de clubs et d'organisations étudiantes sont disponibles ?",
+    "Est-ce qu'il y a des événements culturels et des compétitions sportives pour les étudiants ?",
+    "Comment puis-je trouver des informations sur les activités étudiantes ?"
+  ],
+  "responses": [
+    "Nous proposons un large éventail d'activités étudiantes pour vous impliquer et enrichir votre expérience universitaire. Vous pouvez participer à des clubs et à des organisations étudiantes qui couvrent divers intérêts tels que les arts, le sport, la culture, les sciences et bien plus encore. Nous organisons également des événements culturels, des compétitions sportives, des conférences et des activités sociales. Pour vous impliquer dans les activités étudiantes, vous pouvez consulter notre site web, contacter le bureau des affaires étudiantes ou assister aux séances d'orientation et aux foires aux clubs organisées chaque semestre.",
+"Notre université offre un large éventail d'activités étudiantes pour répondre à divers intérêts et passions. Vous pouvez rejoindre des clubs et des organisations étudiantes liés à des domaines tels que les arts, le sport, la musique, la technologie, la philanthropie, et bien plus encore. En plus de cela, il y a des événements spéciaux organisés régulièrement, tels que des concerts, des festivals culturels, des compétitions sportives intra-universitaires et des conférences inspirantes. Pour connaître les activités étudiantes en cours et vous y impliquer, consultez notre site web ou rendez-vous au bureau des affaires étudiantes.",
+"L'université propose un large éventail d'activités étudiantes pour favoriser votre épanouissement personnel et social. Vous pouvez vous impliquer dans des clubs et des organisations étudiantes axés sur des thèmes comme le leadership, le développement personnel, la durabilité, la diversité culturelle, et bien d'autres. De plus, il existe des opportunités de participer à des événements artistiques, des compétitions sportives interuniversitaires, des activités communautaires et des initiatives de sensibilisation sociale. Pour découvrir les activités étudiantes disponibles et vous y engager, consultez notre site web ou visitez le bureau des affaires étudiantes.",
+"Au sein de notre université, vous trouverez une variété d'activités étudiantes passionnantes. Nous avons des clubs et des organisations étudiantes qui couvrent un large éventail d'intérêts, tels que le cinéma, la danse, les débats, la musique, les clubs culturels, les organisations humanitaires et bien d'autres encore. De plus, nous organisons des événements spéciaux tout au long de l'année, y compris des concerts, des spectacles artistiques, des compétitions sportives et des conférences inspirantes. Pour vous impliquer dans les activités étudiantes, consultez notre site web ou contactez le bureau des affaires étudiantes pour obtenir des informations sur les clubs et les événements en cours.",
+"Les activités étudiantes sont une partie essentielle de la vie universitaire, et notre université propose de nombreuses opportunités pour s'impliquer. Vous pouvez rejoindre des clubs et des organisations étudiantes axés sur des intérêts académiques, culturels, sportifs, sociaux et communautaires. De plus, nous organisons des événements spéciaux tels que des festivals culturels, des conférences invitées, des compétitions sportives intra-universitaires et des projets sociaux. Pour découvrir les activités étudiantes disponibles et comment vous y impliquer, consultez notre site web ou rendez-vous au bureau des affaires étudiantes pour obtenir des informations détaillées."
+  ]
+},
+{
+  "tag": "Services de santé",
+  "patterns": [
+    "Quels sont les services de santé disponibles pour les étudiants ?",
+    "Comment puis-je accéder aux services de santé sur le campus ?",
+    "Est-ce que l'université offre des services de santé ?",
+    "Quelles sont les options de soins médicaux pour les étudiants ?",
+    "Y a-t-il un infirmier ou un médecin sur le campus ?"
+  ],
+  "responses": [
+    "Nous offrons une gamme de services de santé aux étudiants, y compris une infirmerie sur le campus, des services de counseling et de soutien psychologique, ainsi que des ressources pour promouvoir le bien-être et la santé mentale. Pour accéder à ces services, vous pouvez prendre rendez-vous à l'infirmerie ou contacter le service de santé étudiant pour obtenir plus d'informations.",
+    "Les services de santé pour les étudiants comprennent une infirmerie sur le campus, où vous pouvez consulter un médecin ou une infirmière pour des problèmes de santé courants. De plus, nous offrons des services de counseling pour soutenir votre bien-être émotionnel et mental.",
+    "Les services de santé disponibles pour les étudiants comprennent une infirmerie, des consultations médicales, des soins infirmiers et des conseils en matière de santé. Vous pouvez prendre rendez-vous à l'infirmerie ou contacter le service de santé étudiant pour en savoir plus sur les options de soins médicaux disponibles.",
+    "L'université s'engage à fournir des services de santé complets aux étudiants. Cela comprend une infirmerie sur le campus où vous pouvez recevoir des soins médicaux de base, des conseils en matière de santé et des ressources pour le bien-être général. Vous pouvez prendre rendez-vous ou vous renseigner sur les services disponibles auprès du service de santé étudiant.",
+    "Oui, nous avons un infirmier et un médecin sur le campus pour répondre aux besoins de santé des étudiants. Vous pouvez consulter l'infirmier pour des problèmes de santé mineurs ou prendre rendez-vous avec le médecin pour des problèmes plus complexes. Nos services de santé sont là pour vous soutenir tout au long de votre parcours universitaire."
+  ]
+},
+{
+  "tag": "Licences disponibles",
+  "patterns": [
+    "Quelles sont les filières de licence disponibles dans votre Institut ?",
+    "Quelles licences proposez-vous ?",
+    "Quelles options de licence sont offertes dans votre établissement ?",
+    "Quels sont les programmes de licence disponibles ?",
+    "Pouvez-vous me dire quels programmes de licence sont disponibles ?"
+  ],
+  "responses": [
+    "Dans notre Institut, nous proposons deux filières de licence. Il s'agit de la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels, et de la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Pour plus d'informations sur ces filières, vous pouvez consulter notre site web.",
+    "Nous proposons les licences suivantes : Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels et Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information.",
+    "Dans notre Institut, vous avez le choix entre deux filières de licence. La première est la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels, et la deuxième est la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Ces programmes vous permettent d'acquérir des compétences essentielles dans les domaines de l'ingénierie et de l'informatique.",
+    "Nos programmes de licence comprennent la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels, ainsi que la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Ces filières offrent des opportunités d'apprentissage approfondi et de développement de compétences dans des domaines en demande sur le marché du travail.",
+    "Si vous êtes intéressé par une licence, nous proposons deux filières dans notre Institut. La première est la Licence en Génie Industriel avec une spécialisation en Management des Systèmes Industriels, et la deuxième est la Licence en Informatique avec une spécialisation en Génie Logiciel et Système d'Information. Ces programmes sont conçus pour vous fournir les connaissances et les compétences nécessaires pour réussir dans ces domaines en évolution rapide."
+  ]
+},
+{
+  "tag": "Spécialité Licence Informatique",
+  "patterns": [
+    "Quelle est la spécialisation offerte dans la Licence en Informatique dans votre Institut ?",
+    "Quelle est la spécialité de la licence en génie informatique ?",
+    "Quels sont les domaines de spécialisation disponibles dans la Licence en Informatique ?",
+    "Pouvez-vous me dire en quoi consiste la spécialisation de la Licence en Informatique ?",
+    "Quelle est la filière spécifique proposée dans la Licence en Informatique ?"
+  ],
+  "responses": [
+    "La Licence en Informatique dans notre Institut propose une spécialisation en Génie Logiciel et Système d'Information.",
+    "La spécialité offerte dans la Licence en Informatique est le Génie Logiciel et Système d'Information. Ce programme vous permet d'approfondir vos connaissances et compétences dans le développement de logiciels, la conception de systèmes d'information et les technologies liées à l'informatique.",
+    "Dans la Licence en Informatique, vous avez la possibilité de vous spécialiser en Génie Logiciel et Système d'Information. Cette spécialité vous permettra d'acquérir des compétences avancées dans le domaine du développement de logiciels, de la gestion des systèmes d'information et des technologies informatiques.",
+    "La Licence en Informatique propose une filière spécifique en Génie Logiciel et Système d'Information. Cette spécialisation vous permettra d'explorer en profondeur les concepts et les pratiques du génie logiciel, ainsi que les systèmes d'information utilisés dans différents domaines.",
+    "Si vous choisissez la Licence en Informatique, vous aurez la possibilité de vous spécialiser en Génie Logiciel et Système d'Information. Cette spécialité vous permettra de développer des compétences approfondies dans la conception et le développement de logiciels, ainsi que dans la gestion des systèmes d'information."
+  ]
+},
+{
+  "tag": "Spécialité Licence Génie Industriel",
+  "patterns": [
+    "Quelle est la spécialisation offerte dans la Licence en Génie Industriel dans votre Institut ?",
+    "Quelle est la spécialité de la licence en génie industriel ?",
+    "Quels sont les domaines de spécialisation disponibles dans la Licence en Génie Industriel ?",
+    "Pouvez-vous me dire en quoi consiste la spécialisation de la Licence en Génie Industriel ?",
+    "Quelle est la filière spécifique proposée dans la Licence en Génie Industriel ?"
+  ],
+  "responses": [
+    "Nous proposons la Licence en Génie Industriel : Management des Systèmes Industriels qui est axée sur la gestion des systèmes industriels, la logistique, la gestion de la qualité, la gestion de projet, etc. Elle peut être une option d'orientation pour ceux intéressés par le management dans le domaine industriel.",
+    "La spécialité offerte dans la Licence en Génie Industriel est le Management des Systèmes Industriels. Ce programme met l'accent sur les compétences nécessaires pour gérer efficacement les systèmes industriels, y compris la logistique, la gestion de la qualité et la gestion de projet.",
+    "La Licence en Génie Industriel propose une filière spécifique en Management des Systèmes Industriels. Cette spécialisation met l'accent sur les aspects de gestion et d'optimisation des systèmes industriels, y compris la logistique, la gestion de la qualité et la planification des opérations.",
+    "Dans la Licence en Génie Industriel, vous avez la possibilité de vous spécialiser en Management des Systèmes Industriels. Cette spécialité vous permettra d'acquérir des compétences avancées dans la gestion et l'optimisation des processus industriels, ainsi que dans la planification et la coordination des opérations.",
+    "Si vous choisissez la Licence en Génie Industriel, vous pourrez vous spécialiser en Management des Systèmes Industriels. Cette spécialisation vous permettra de développer des compétences en gestion de la logistique, en gestion de la qualité, en planification des opérations et en gestion de projet dans le contexte des systèmes industriels."
+  ]
+},
+{
+  "tag": "Demande de licence en informatique",
+  "patterns": [
+    "J'aimerais faire une licence en informatique",
+    "Je souhaite faire une licence en informatique",
+    "Comment puis-je faire une licence en informatique ?",
+    "Quelles sont les étapes pour obtenir une licence en informatique ?",
+    "Quelles sont les conditions requises pour s'inscrire à une licence en informatique ?"
+  ],
+  "responses": [
+    "Quel est votre parcours académique actuel ? Avez-vous déjà obtenu un diplôme dans un domaine lié à l'informatique ?",
+    "Avez-vous suivi un cycle de licence ou un cycle préparatoire ?",
+    "Est-ce que vous avez suivi un cycle de licence ou un cycle préparatoire ?",
+    "Si vous souhaitez faire une licence en informatique chez notre Institut, vous devez avoir obtenu votre baccalauréat en Mathématiques, Sciences expérimentales, Sciences techniques ou Sciences de l'informatique.",
+    "Si vous avez obtenu votre baccalauréat en Mathématiques, Sciences expérimentales, Sciences techniques ou Sciences de l'informatique, alors oui, vous pouvez faire une licence en informatique chez notre Institut."
+  ]
+},
+{
+"tag": "Prérequis Licence Informatique",
+"patterns": [
+"Quels sont les prérequis pour une licence en informatique ?",
+"Qu'est-ce qu'il me faut pour faire une licence en informatique ?",
+"De quoi ai-je besoin pour suivre une licence en informatique ?",
+"Quels sont les critères d'admission pour une licence en informatique ?",
+"Quels diplômes ou compétences sont nécessaires pour accéder à une licence en informatique ?"
+],
+"responses": [
+"Pour faire une licence en informatique, vous aurez généralement besoin d'un diplôme de fin d'études secondaires ou équivalent, ainsi que des compétences en mathématiques et en informatique de base. Il est également recommandé d'avoir de bonnes compétences en communication et en résolution de problèmes, ainsi que des compétences en programmation et en langues étrangères.",
+"Pour faire une licence en informatique, vous devez avoir une passion pour la technologie et l'informatique, ainsi qu'un désir de résoudre des problèmes complexes. Vous aurez également besoin de compétences en programmation et en mathématiques, ainsi que de bonnes compétences en communication pour travailler efficacement en équipe. Il est également utile d'avoir une certaine expérience dans le domaine de l'informatique, que ce soit par le biais d'un stage, d'un travail à temps partiel ou d'un projet personnel.",
+"Vous aurez également besoin de compétences en mathématiques et en informatique de base pour suivre une licence en informatique. Cela peut inclure des compétences en algèbre, en calcul et en logique, ainsi que des connaissances de base en programmation et en langages informatiques.",
+"Les critères d'admission pour une licence en informatique peuvent varier d'un établissement à l'autre, mais en général, vous aurez besoin d'un diplôme de fin d'études secondaires et de bonnes compétences en mathématiques et en informatique. Certaines universités peuvent également demander des scores standardisés ou des tests d'admission spécifiques.",
+"Pour suivre une licence en informatique, il est important d'avoir des compétences en programmation, une compréhension des principes de base de l'informatique, ainsi qu'une capacité à résoudre des problèmes de manière créative et logique."
+]
+},
+{
+  "tag": "Processus de candidature Licence Informatique",
+  "patterns": [
+    "Comment puis-je postuler à une licence en informatique ?",
+    "Quelles sont les exigences pour s'inscrire à une licence en informatique ?",
+    "Quels sont les documents nécessaires pour postuler à une licence en informatique ?",
+    "Quelles sont les étapes du processus de candidature pour une licence en informatique ?",
+    "Où puis-je trouver le formulaire de demande pour une licence en informatique ?"
+  ],
+  "responses": [
+    "Pour postuler à une licence en informatique, vous devez remplir un formulaire de demande et fournir des documents tels que des relevés de notes, des lettres de recommandation et des résultats de tests standardisés. Il est également important de vérifier les dates limites de candidature et de respecter tous les délais pour éviter de manquer l'opportunité d'être admis.",
+    "Pour être admis dans une licence en informatique, vous devrez remplir un formulaire de demande d'inscription en ligne ou en personne auprès de notre institut. Vous devrez fournir des informations personnelles, des relevés de notes, des résultats de tests standardisés (le cas échéant), ainsi que toute autre documentation requise par notre institut.",
+    "Le processus de candidature pour une licence en informatique implique de remplir un formulaire de demande, de fournir des relevés de notes de vos études antérieures, des résultats de tests standardisés (le cas échéant) et des lettres de recommandation. Assurez-vous de respecter les dates limites de candidature et de fournir tous les documents requis dans les délais.",
+    "Le formulaire de demande pour une licence en informatique peut être trouvé sur notre site web officiel. Vous pouvez accéder au formulaire en ligne et suivre les instructions fournies pour remplir correctement votre demande.",
+    "Pour postuler à une licence en informatique, vous devrez remplir un formulaire de demande d'admission, fournir des relevés de notes, des résultats de tests standardisés et éventuellement des lettres de recommandation. Assurez-vous de consulter les exigences spécifiques de notre institut et de suivre les instructions fournies pour soumettre une demande complète."
+  ]
+},
+{
+"tag": "Prérequis Licence Informatique",
+"patterns": [
+"Quels sont les prérequis pour une licence en informatique ?",
+"Qu'est-ce qu'il me faut pour faire une licence en informatique ?",
+"De quoi ai-je besoin pour suivre une licence en informatique ?",
+"Quels sont les critères d'admission pour une licence en informatique ?",
+"Quels diplômes ou compétences sont nécessaires pour accéder à une licence en informatique ?"
+],
+"responses": [
+"Pour faire une licence en informatique, vous aurez généralement besoin d'un diplôme de fin d'études secondaires ou équivalent, ainsi que des compétences en mathématiques et en informatique de base. Il est également recommandé d'avoir de bonnes compétences en communication et en résolution de problèmes, ainsi que des compétences en programmation et en langues étrangères.",
+"Pour faire une licence en informatique, vous devez avoir une passion pour la technologie et l'informatique, ainsi qu'un désir de résoudre des problèmes complexes. Vous aurez également besoin de compétences en programmation et en mathématiques, ainsi que de bonnes compétences en communication pour travailler efficacement en équipe. Il est également utile d'avoir une certaine expérience dans le domaine de l'informatique, que ce soit par le biais d'un stage, d'un travail à temps partiel ou d'un projet personnel.",
+"Vous aurez également besoin de compétences en mathématiques et en informatique de base pour suivre une licence en informatique. Cela peut inclure des compétences en algèbre, en calcul et en logique, ainsi que des connaissances de base en programmation et en langages informatiques.",
+"Pour les étudiants étrangers intéressés par les filières ingénieur, notre Institut propose différentes options adaptées à leurs besoins. Vous pouvez choisir parmi des filières telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Ces options vous offrent la possibilité de suivre des études d'ingénierie de haute qualité et de développer vos compétences dans un environnement international.",
+"Les étudiants étrangers qui souhaitent se spécialiser dans les domaines de l'ingénierie ont plusieurs options disponibles dans notre Institut. Vous pouvez choisir parmi des filières comme le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Ces filières vous offrent des possibilités de développement académique et professionnel dans des domaines variés de l'ingénierie."
+]
+},
+{
+  "tag": "Processus de candidature Licence Informatique",
+  "patterns": [
+    "Quelle est la procédure de candidature pour une licence en informatique ?",
+    "Comment puis-je postuler à une licence en informatique ?",
+    "Quelles sont les étapes pour s'inscrire à une licence en informatique ?",
+    "Quels sont les documents requis pour postuler à une licence en informatique ?",
+    "Y a-t-il des critères spécifiques pour être admis dans une licence en informatique ?"
+  ],
+  "responses": [
+    "Pour postuler à une licence en informatique, vous devez remplir un formulaire de demande en ligne ou en personne, en fournissant vos informations personnelles, vos relevés de notes, des lettres de recommandation et éventuellement des résultats de tests standardisés.",
+    "La procédure de candidature pour une licence en informatique implique de remplir un formulaire de demande avec vos informations personnelles, de rassembler vos relevés de notes les plus récents, de fournir des lettres de recommandation et de passer éventuellement des tests standardisés.",
+    "Pour vous inscrire à une licence en informatique, vous devrez remplir un formulaire de candidature en fournissant des informations telles que vos coordonnées, votre parcours académique, vos relevés de notes, des lettres de recommandation et des résultats de tests standardisés, le cas échéant.",
+    "Les documents requis pour postuler à une licence en informatique comprennent généralement des relevés de notes de vos études précédentes, des lettres de recommandation d'enseignants ou de professionnels, ainsi que des résultats de tests standardisés tels que le SAT ou l'ACT.",
+    "Pour être admis dans une licence en informatique, vous devrez satisfaire aux critères spécifiques définis par l'établissement d'enseignement, tels que des notes minimales requises, des compétences préalables en mathématiques ou en informatique, ainsi que la soumission des documents requis dans le cadre de la candidature."
+  ]
+},
+{
+  "tag": "Options pour étudiants étrangers",
+  "patterns": [
+    "Quelles sont les filières d'ingénieur disponibles pour les étudiants étrangers dans votre Institut ?",
+    "Pouvez-vous me donner des exemples de filières d'ingénieur ouvertes aux étudiants internationaux ?",
+    "Quelles sont les spécialisations d'ingénieur accessibles aux étudiants étrangers ?",
+    "Quels sont les domaines d'ingénierie proposés aux étudiants internationaux ?",
+    "Je suis un étudiant étranger intéressé par une carrière d'ingénieur. Quelles options avez-vous pour les étudiants comme moi ?"
+  ],
+  "responses": [
+    "En tant qu'étudiant étranger, vous avez accès à plusieurs filières d'ingénieur dans notre Institut. Vous pouvez choisir parmi des options telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Nous sommes là pour vous fournir des informations détaillées sur ces filières ainsi que sur les démarches administratives nécessaires pour les étudiants internationaux.",
+    "Notre Institut propose un large éventail de filières d'ingénieur accessibles aux étudiants étrangers. Vous pouvez envisager des spécialisations telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Nous serions ravis de vous fournir des informations complémentaires sur ces options et de vous accompagner dans votre candidature.",
+    "Les étudiants étrangers intéressés par une carrière d'ingénieur ont plusieurs options disponibles dans notre Institut. Vous pouvez choisir parmi des spécialisations telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. N'hésitez pas à nous contacter pour obtenir des informations plus détaillées sur ces filières et les opportunités qui s'offrent à vous.",
+    "Dans notre Institut, les étudiants étrangers ont la possibilité de se spécialiser dans divers domaines de l'ingénierie. Vous pouvez explorer des filières telles que le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. Nous serions heureux de vous fournir des renseignements supplémentaires sur ces options et de vous aider dans votre processus d'inscription.",
+    "Si vous êtes un étudiant étranger intéressé par une carrière d'ingénieur, notre Institut offre différentes options de filières d'ingénieur adaptées aux étudiants internationaux. Parmi les choix qui s'offrent à vous figurent le Génie Civil, le Génie des Procédés, le Génie Mécanique, le Génie Industriel, le Génie des Télécommunications et le Génie Informatique. N'hésitez pas à nous contacter pour obtenir des informations plus détaillées et des conseils sur ces filières."  
+  ]
+},
+{
+  "tag": "Tarifs Génie Informatique",
+  "patterns": [
+    "Quels sont les frais de scolarité de la licence en génie informatique ?",
+    "Pourriez-vous me donner des informations sur les coûts de la licence en génie informatique ?",
+    "Est-ce que vous pouvez me dire combien coûte la licence en génie informatique ?",
+    "J'aimerais connaître les tarifs de la licence en génie informatique. Pouvez-vous m'aider ?",
+    "Quels sont les prix associés à la licence en génie informatique ?"
+  ],
+  "responses": [
+    "Le coût de la licence en génie informatique s'élève à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Pour la licence en génie informatique, les frais de scolarité sont fixés à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "En ce qui concerne la licence en génie informatique, vous devrez payer 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Les tarifs de la licence en génie informatique sont les suivants : 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Si vous envisagez de suivre la licence en génie informatique, il est important de noter que les frais de scolarité s'élèvent à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année."
+  ]
+},
+{
+  "tag": "Tarifs Génie Industriel",
+  "patterns": [
+    "Quels sont les frais de scolarité de la licence en génie industriel ?",
+    "Pourriez-vous me donner des informations sur les coûts de la licence en génie industriel ?",
+    "Est-ce que vous pouvez me dire combien coûte la licence en génie industriel ?",
+    "J'aimerais connaître les tarifs de la licence en génie industriel. Pouvez-vous m'aider ?",
+    "Quels sont les prix associés à la licence en génie industriel ?"
+  ],
+  "responses": [
+    "Le coût de la licence en génie industriel s'élève à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Pour la licence en génie industriel, les frais de scolarité sont fixés à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "En ce qui concerne la licence en génie industriel, vous devrez payer 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Les tarifs de la licence en génie industriel sont les suivants : 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Si vous envisagez de suivre la licence en génie industriel, il est important de noter que les frais de scolarité s'élèvent à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année."
+  ]
+},
+{
+  "tag": "Tarifs Génie Mécanique",
+  "patterns": [
+    "Quels sont les frais de scolarité de la licence en génie mécanique ?",
+    "Pourriez-vous me donner des informations sur les coûts de la licence en génie mécanique ?",
+    "Est-ce que vous pouvez me dire combien coûte la licence en génie mécanique ?",
+    "J'aimerais connaître les tarifs de la licence en génie mécanique. Pouvez-vous m'aider ?",
+    "Quels sont les prix associés à la licence en génie mécanique ?"
+  ],
+  "responses": [
+    "Le coût de la licence en génie mécanique s'élève à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Pour la licence en génie mécanique, les frais de scolarité sont fixés à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "En ce qui concerne la licence en génie mécanique, vous devrez payer 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Les tarifs de la licence en génie mécanique sont les suivants : 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Si vous envisagez de suivre la licence en génie mécanique, il est important de noter que les frais de scolarité s'élèvent à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année."
+  ]
+},
+{
+  "tag": "Tarifs Génie des Procédés",
+  "patterns": [
+    "Quels sont les frais de scolarité de la licence en génie des procédés ?",
+    "Pourriez-vous me donner des informations sur les coûts de la licence en génie des procédés ?",
+    "Est-ce que vous pouvez me dire combien coûte la licence en génie des procédés ?",
+    "J'aimerais connaître les tarifs de la licence en génie des procédés. Pouvez-vous m'aider ?",
+    "Quels sont les prix associés à la licence en génie des procédés ?"
+  ],
+  "responses": [
+    "Le coût de la licence en génie des procédés s'élève à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Pour la licence en génie des procédés, les frais de scolarité sont fixés à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "En ce qui concerne la licence en génie des procédés, vous devrez payer 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Les tarifs de la licence en génie des procédés sont les suivants : 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année.",
+    "Si vous envisagez de suivre la licence en génie des procédés, il est important de noter que les frais de scolarité s'élèvent à 5000 euros pour la première année, 6000 euros pour la deuxième année et 7000 euros pour la troisième année."
+  ]
+}
+ ]
+  }
